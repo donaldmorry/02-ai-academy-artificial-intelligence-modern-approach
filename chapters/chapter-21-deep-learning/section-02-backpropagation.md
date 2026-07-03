@@ -41,7 +41,7 @@ Forward pass: compute activations topologically. Backward pass: apply chain rule
 
 > **Readable form:** forward pass computes predictions; backward pass distributes blame for the error back to each parameter.
 
-Modern frameworks ([Course 1 Keras](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-01-keras-and-tensorflow-setup.md), PyTorch) build this graph automatically - **automatic differentiation**. AIMA still expects you to derive gradients by hand for at least one layer to understand what the framework computes.
+Modern frameworks ([Course 1 Keras](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-01-keras-and-tensorflow-setup.md), PyTorch) build this graph automatically - **automatic differentiation**. AIMA still expects you to derive gradients by hand for at least one layer to understand what the framework computes.
 
 ---
 
@@ -146,7 +146,7 @@ $$
 | 32-256 | Standard GPU sweet spot |
 | $N$ | Smooth but slow |
 
-[Course 1's `model.fit`](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md) hides this loop; understanding backprop explains what `loss.backward()` triggers in PyTorch ([Course 3 Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md)).
+[Course 1's `model.fit`](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md) hides this loop; understanding backprop explains what `loss.backward()` triggers in PyTorch ([Course 3 Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md)).
 
 ---
 
@@ -192,7 +192,7 @@ $$
 $$
 > **Readable form:** This derivative tells how the loss changes when the parameter changes; backprop uses it to decide the update direction.
 
-Use $\epsilon \approx 10^{-5}$ for float64. Discrepancies flag implementation bugs - essential when coding from scratch in [Course 3 Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md).
+Use $\epsilon \approx 10^{-5}$ for float64. Discrepancies flag implementation bugs - essential when coding from scratch in [Course 3 Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md).
 
 ---
 
@@ -206,9 +206,9 @@ Recurrent networks ([Section 21.5](./section-05-recurrent-networks.md)) unroll t
 
 | Course 1 | AIMA link |
 |----------|-----------|
-| Keras compile + fit | [02-your-first-keras-model.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md): backprop runs inside `fit` |
-| TensorFlow setup | [01-keras-tensorflow-setup.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-01-keras-and-tensorflow-setup.md): autodiff engine |
-| Network sizing | [03-network-sizing-architecture.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-03-network-sizing-and-architecture.md): depth affects gradient paths |
+| Keras compile + fit | [02-your-first-keras-model.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md): backprop runs inside `fit` |
+| TensorFlow setup | [01-keras-tensorflow-setup.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-01-keras-and-tensorflow-setup.md): autodiff engine |
+| Network sizing | [03-network-sizing-architecture.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-03-network-sizing-and-architecture.md): depth affects gradient paths |
 | Chapter 19 gradient descent | [Chapter 19](../chapter-19-learning-from-examples/README.md): same update rule, harder gradients |
 
 ---
@@ -217,10 +217,10 @@ Recurrent networks ([Section 21.5](./section-05-recurrent-networks.md)) unroll t
 
 | AIMA topic | Goodfellow et al. |
 |------------|-------------------|
-| Computational graphs | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.2 |
-| Full backprop derivation | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.5 |
-| Autograd comparison | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.9 |
-| Vanishing gradients | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.2 |
+| Computational graphs | [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.2 |
+| Full backprop derivation | [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.5 |
+| Autograd comparison | [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.9 |
+| Vanishing gradients | [Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.2 |
 
 ---
 

@@ -14,7 +14,7 @@ Fully connected layers on $224 \times 224 \times 3$ RGB images require **million
 1. **Locality** - nearby pixels are more correlated than distant ones.
 2. **Stationarity** - the same feature detectors (edges, textures) appear across the image.
 
-Russell and Norvig present CNNs as the architecture that made deep learning dominate [computer vision](../chapter-25-computer-vision/README.md) after AlexNet (2012). You may have trained CNNs in [Course 1 Chapter 10](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md); this section explains **why** they work from the AIMA perspective.
+Russell and Norvig present CNNs as the architecture that made deep learning dominate [computer vision](../chapter-25-computer-vision/README.md) after AlexNet (2012). You may have trained CNNs in [Course 1 Chapter 10](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md); this section explains **why** they work from the AIMA perspective.
 
 > **Readable form:** instead of connecting every pixel to every neuron, slide small filters across the image and reuse the same filter everywhere.
 
@@ -116,7 +116,7 @@ Stacking blocks increases **receptive field** - the region of input influencing 
 | Middle | Parts (eyes, wheels) |
 | Late | Whole objects, scenes |
 
-[Course 3 Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) derives receptive field arithmetic and classic architectures in full detail.
+[Course 3 Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) derives receptive field arithmetic and classic architectures in full detail.
 
 ---
 
@@ -178,7 +178,7 @@ Training ImageNet-scale CNNs requires massive compute. **Transfer learning** reu
 1. **Feature extraction** - freeze conv backbone, train new classifier head.
 2. **Fine-tuning** - unfreeze top layers (or all) with small learning rate.
 
-Beneficial when target dataset is **small** and **similar** to pretraining domain (natural photos). [Course 1 Chapter 10](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/section-01-why-cnns-for-images.md) motivates this practically; AIMA connects it to **knowledge reuse in learning agents**.
+Beneficial when target dataset is **small** and **similar** to pretraining domain (natural photos). [Course 1 Chapter 10](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/section-01-why-cnns-for-images.md) motivates this practically; AIMA connects it to **knowledge reuse in learning agents**.
 
 > **Readable form:** borrow eyes trained on millions of photos, then teach a new task-specific decision on top.
 
@@ -222,10 +222,10 @@ For MNIST ($28 \times 28$), a small MLP can reach high accuracy - CNN advantages
 
 | Course 1 | AIMA link |
 |----------|-----------|
-| Why CNNs for images | [01-why-cnns-for-images.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/section-01-why-cnns-for-images.md): practical motivation |
-| Chapter 10 overview | [README.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md): Keras Conv2D, MaxPooling |
-| MNIST baseline | [08-digit-recognition-mnist.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-08-case-study-mnist-digit-recognition.md): MLP vs conv comparison |
-| Chapter 08 deep learning | [01-why-deep-learning.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): ImageNet narrative |
+| Why CNNs for images | [01-why-cnns-for-images.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/section-01-why-cnns-for-images.md): practical motivation |
+| Chapter 10 overview | [README.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md): Keras Conv2D, MaxPooling |
+| MNIST baseline | [08-digit-recognition-mnist.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-08-case-study-mnist-digit-recognition.md): MLP vs conv comparison |
+| Chapter 08 deep learning | [01-why-deep-learning.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): ImageNet narrative |
 
 ---
 
@@ -233,11 +233,11 @@ For MNIST ($28 \times 28$), a small MLP can reach high accuracy - CNN advantages
 
 | AIMA topic | Goodfellow et al. |
 |------------|-------------------|
-| Convolution operation | [Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.1 |
-| Pooling | [Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.2 |
-| Weight sharing & equivariance | [Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.4 |
-| ResNet & classic architectures | [Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.6 |
-| Transfer learning | [Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.9 |
+| Convolution operation | [Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.1 |
+| Pooling | [Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.2 |
+| Weight sharing & equivariance | [Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.4 |
+| ResNet & classic architectures | [Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.6 |
+| Transfer learning | [Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) §9.9 |
 
 ---
 

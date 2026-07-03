@@ -33,7 +33,7 @@ Gene finding, protein families - profile HMMs.
 
 ## Modern Neural Sequence Models
 
-RNNs/transformers learn temporal patterns from data - [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/) - but HMM structure still informs architecture design.
+RNNs/transformers learn temporal patterns from data - [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/) - but HMM structure still informs architecture design.
 
 ---
 

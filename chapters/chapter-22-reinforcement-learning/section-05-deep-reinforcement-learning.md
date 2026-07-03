@@ -14,7 +14,7 @@
 The landmark **Deep Q-Network (DQN)** (Mnih et al., 2015) played Atari games from raw pixels at human-level performance, combining:
 
 1. [Q-learning](./section-03-active-reinforcement-learning.md) (off-policy TD control)
-2. Convolutional neural networks ([Chapter 21](../chapter-21-deep-learning/README.md), [Course 3 Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md))
+2. Convolutional neural networks ([Chapter 21](../chapter-21-deep-learning/README.md), [Course 3 Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md))
 3. **Experience replay** and **target networks** for stability
 
 > **Readable form:** DQN is Q-learning with a neural net as the Q-table, plus a replay memory so learning is not destroyed by correlated consecutive frames, plus a frozen copy of the network to compute stable targets.
@@ -38,7 +38,7 @@ Frames → Conv → Conv → Conv → FC → FC → [Q(a₁), Q(a₂), ..., Q(a�
 
 Action selection: $\varepsilon$-greedy on network outputs.
 
-[Course 3 Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) explains forward pass and backprop; DQN applies them with TD targets instead of fixed labels.
+[Course 3 Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) explains forward pass and backprop; DQN applies them with TD targets instead of fixed labels.
 
 ---
 
@@ -56,7 +56,7 @@ $$
 $$
 > **Readable form:** Train the Q-network by minimizing average squared error between target values and current Q-predictions for sampled transitions.
 
-Update $\mathbf{w}$ by gradient descent (Adam, RMSprop - [Course 3 Chapter 08](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md)).
+Update $\mathbf{w}$ by gradient descent (Adam, RMSprop - [Course 3 Chapter 08](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md)).
 
 > **Readable form:** Minimize squared error between the network's Q-prediction for the action taken and the one-step Q-learning target computed from reward plus best next-state Q from a **separate frozen** target network.
 
@@ -171,7 +171,7 @@ $$
 
 **Offline RL gap.** Standard DQN assumes online data collection - dangerous for real robots ([Section 22.8](./section-08-applications-and-safety.md)).
 
-For continuous control, see [Section 22.6](./section-06-policy-search-and-policy-gradients.md) (DDPG, PPO) and [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md) for scaled training infrastructure.
+For continuous control, see [Section 22.6](./section-06-policy-search-and-policy-gradients.md) (DDPG, PPO) and [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md) for scaled training infrastructure.
 
 ---
 
@@ -194,7 +194,7 @@ Practical stabilizers map to theory:
 
 [Chapter 17](../chapter-17-making-complex-decisions/README.md) value iteration assumes known $P$ and enumerable states. DQN is **model-free** value iteration at scale with a neural representer.
 
-[Chapter 21](../chapter-21-deep-learning/README.md) provides CNN building blocks; DQN is a **deployment** of deep learning where labels are bootstrapped TD targets, not human annotations - a fundamentally different training loop than [Course 1 Keras models](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md).
+[Chapter 21](../chapter-21-deep-learning/README.md) provides CNN building blocks; DQN is a **deployment** of deep learning where labels are bootstrapped TD targets, not human annotations - a fundamentally different training loop than [Course 1 Keras models](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md).
 
 ---
 
@@ -217,7 +217,7 @@ $$
 
 ## Hardware and Scale
 
-Training DQN on 49 Atari games used a single GPU for days. Modern labs distribute RL across thousands of actors ([Course 3 Chapter 12](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-01-large-scale-deep-learning.md)):
+Training DQN on 49 Atari games used a single GPU for days. Modern labs distribute RL across thousands of actors ([Course 3 Chapter 12](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-01-large-scale-deep-learning.md)):
 
 - Parallel actors collect experience
 - Learner updates GPU network

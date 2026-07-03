@@ -148,7 +148,7 @@ def lstm_step(x_t, h_prev, c_prev, params):
 | GRU | 2 | Moderate | Faster training |
 | LSTM | 3 | Most | Long dependencies, speech, text |
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) derives BPTT and compares cells in depth.
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) derives BPTT and compares cells in depth.
 
 ---
 
@@ -211,10 +211,10 @@ AIMA presents RNNs as historically central; [Chapter 24](../chapter-24-deep-lear
 
 | Course 1 | AIMA link |
 |----------|-----------|
-| Chapter 09 - Keras RNN layers | [README.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md): LSTM layer API |
-| Text as data | [Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md): sequences before deep NLP |
-| ML workflow | [06-ml-workflow.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md): train/val split for sequences |
-| Chapter 08 | [01-why-deep-learning.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): sequence tasks motivation |
+| Chapter 09 - Keras RNN layers | [README.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md): LSTM layer API |
+| Text as data | [Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md): sequences before deep NLP |
+| ML workflow | [06-ml-workflow.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md): train/val split for sequences |
+| Chapter 08 | [01-why-deep-learning.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): sequence tasks motivation |
 
 ---
 
@@ -222,11 +222,11 @@ AIMA presents RNNs as historically central; [Chapter 24](../chapter-24-deep-lear
 
 | AIMA topic | Goodfellow et al. |
 |------------|-------------------|
-| Unfolding computational graphs | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.1 |
-| Vanishing/exploding gradients | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.2 |
-| LSTM architecture | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.3 |
-| GRU | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.4 |
-| Encoder-decoder & attention preview | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.6-10.7 |
+| Unfolding computational graphs | [Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.1 |
+| Vanishing/exploding gradients | [Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.2 |
+| LSTM architecture | [Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.3 |
+| GRU | [Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.4 |
+| Encoder-decoder & attention preview | [Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) §10.6-10.7 |
 
 ---
 

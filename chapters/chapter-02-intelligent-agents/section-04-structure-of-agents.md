@@ -93,7 +93,7 @@ A robot with lidar builds a **map** (state) even when walls are not currently vi
 
 ### Relation to Course 1
 
-[Supervised learning](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) models map features to labels without explicit world dynamics. A model-based agent adds **temporal structure**: "if I believe the patient has infection $s$, ordering test $a$ may change my beliefs."
+[Supervised learning](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) models map features to labels without explicit world dynamics. A model-based agent adds **temporal structure**: "if I believe the patient has infection $s$, ordering test $a$ may change my beliefs."
 
 ---
 
@@ -227,7 +227,7 @@ Chapter 07's Wumpus World is **partially observable**, **sequential**, **determi
 
 ## From Classifiers to Utility-Based Agents
 
-Your [logistic regression](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md) outputs $P(y{=}1 \mid x)$. Hook it to **asymmetric costs**:
+Your [logistic regression](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md) outputs $P(y{=}1 \mid x)$. Hook it to **asymmetric costs**:
 
 \text{action} = \begin{cases}
 \text{approve} & \text{if } P(\text{fraud}) \cdot C_{\text{fraud}} < P(\text{legit}) \cdot C_{\text{false\_block}} \\

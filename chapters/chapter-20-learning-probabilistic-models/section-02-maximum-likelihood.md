@@ -36,7 +36,7 @@ Humorous analogy: MLE is the **prosecutor's choice of theory** - "which paramete
 | Harder calculus | Derivatives of log often simplify |
 | Monotonic transform | Same argmax as raw likelihood |
 
-For Gaussians, logs turn products of exponentials into quadratics - connecting MLE to [ordinary least squares](../../GLOSSARY.md#ordinary-least-squares) in linear regression ([Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models)).
+For Gaussians, logs turn products of exponentials into quadratics - connecting MLE to [ordinary least squares](../../GLOSSARY.md#ordinary-least-squares) in linear regression ([Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models)).
 
 ---
 
@@ -126,7 +126,7 @@ $$
 
 | Model | NLL loss | Course 1 analog |
 |-------|----------|-----------------|
-| Gaussian regression | Squared error (up to constants) | [Linear regression](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models) |
+| Gaussian regression | Squared error (up to constants) | [Linear regression](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models) |
 | Logistic | Cross-entropy | Classification |
 | Multinomial | Cross-entropy over classes | Softmax classifier |
 
@@ -191,7 +191,7 @@ $$
 
 | Prior | MAP effect | Course 3 link |
 |-------|------------|---------------|
-| Gaussian on weights | L2 penalty | [L2 weight decay](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/section-02-l2-and-l1-weight-decay.md) |
+| Gaussian on weights | L2 penalty | [L2 weight decay](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/section-02-l2-and-l1-weight-decay.md) |
 | Laplace on weights | L1 sparsity | L1 regularization |
 | Dirichlet on probabilities | Smoothed counts | Pseudo-counts in BN CPTs |
 
@@ -239,7 +239,7 @@ def mle_bernoulli_gradient_ascent(counts_heads, n_trials, lr=0.01, steps=500):
 print(mle_bernoulli_gradient_ascent(70, 100))  # ≈ 0.70
 ```
 
-Modern deep learning ([Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md)) is largely MLE (or MAP) with neural network parameterizations of $P(\mathbf{x} \mid \theta)$.
+Modern deep learning ([Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md)) is largely MLE (or MAP) with neural network parameterizations of $P(\mathbf{x} \mid \theta)$.
 
 ---
 

@@ -90,7 +90,7 @@ No real agent is omniscient. Partial observability ([Section 2.3](./section-03-t
 | Designer provides learning algorithm + data | High | AlphaZero self-play |
 | Hybrid | Medium | GPS map preloaded + online traffic learning |
 
-From [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md), Mitchell's definition ties learning to performance improvement. A learning agent ([Section 2.5](./section-05-learning-agents.md)) increases autonomy over time - shifting burden from programmer to experience.
+From [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md), Mitchell's definition ties learning to performance improvement. A learning agent ([Section 2.5](./section-05-learning-agents.md)) increases autonomy over time - shifting burden from programmer to experience.
 
 ```python
 # Rational action selection (conceptual)
@@ -145,7 +145,7 @@ This tension appears formally in:
 - Multi-armed bandits (Chapter 17)
 - Reinforcement learning (Chapter 22)
 
-A [supervised learning](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) model trained once on fixed data never explores; an agent in a changing environment must.
+A [supervised learning](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) model trained once on fixed data never explores; an agent in a changing environment must.
 
 ---
 

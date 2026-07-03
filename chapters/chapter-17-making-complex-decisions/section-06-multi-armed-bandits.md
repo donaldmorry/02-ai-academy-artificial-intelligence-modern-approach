@@ -190,7 +190,7 @@ def run_bandit(env, agent, T=1000):
 
 ## Applications in AI Systems
 
-- **Hyperparameter search:** each arm = configuration ([Course 1 Chapter 07](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md))
+- **Hyperparameter search:** each arm = configuration ([Course 1 Chapter 07](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md))
 - **Clinical trials:** ethical exploration
 - **Recommendation systems:** cold-start users
 - **Neural architecture search:** expensive evaluations favor UCB/BO

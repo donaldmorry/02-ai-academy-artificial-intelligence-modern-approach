@@ -240,7 +240,7 @@ Dense graphs fit training data tightly. **BIC penalty** reduces but does not eli
 
 ## Connection to Course 3
 
-[Structured probabilistic models](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md) and causal discovery research extend score-based ideas to nonlinear and high-dimensional settings - neural causal models, continuous optimization over adjacency.
+[Structured probabilistic models](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md) and causal discovery research extend score-based ideas to nonlinear and high-dimensional settings - neural causal models, continuous optimization over adjacency.
 
 ---
 

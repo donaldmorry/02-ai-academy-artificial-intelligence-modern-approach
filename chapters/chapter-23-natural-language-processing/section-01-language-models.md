@@ -19,7 +19,7 @@ $$
 
 Why does this matter? LMs power speech recognition (choosing among acoustic hypotheses), machine translation (scoring fluent outputs), spelling correction, autocomplete, and - in modern form - chatbots that generate entire paragraphs.
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) treated text as bags of words for classification. Language models care about **order**: "dog bites man" and "man bites dog" have radically different probabilities even with identical word counts.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) treated text as bags of words for classification. Language models care about **order**: "dog bites man" and "man bites dog" have radically different probabilities even with identical word counts.
 
 > **Readable form:** A language model answers "how likely is this string of words?" - the statistical backbone of everything from your phone's next-word suggestion to GPT.
 
@@ -161,7 +161,7 @@ where $\lambda_3 + \lambda_2 + \lambda_1 = 1$ and each $P_k$ is the k-gram estim
 
 **Backoff** (e.g., Katz smoothing): if the trigram count is zero, use the bigram; if that fails, use the unigram - with discount factors so probabilities still sum to 1.
 
-These techniques dominated NLP from the 1990s through the early 2010s. [Course 1 Chapter 04, Section 4.3](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) uses word counts for classification; n-grams extend counts to **sequences**.
+These techniques dominated NLP from the 1990s through the early 2010s. [Course 1 Chapter 04, Section 4.3](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) uses word counts for classification; n-grams extend counts to **sequences**.
 
 ---
 
@@ -214,7 +214,7 @@ Output is locally fluent but globally incoherent - a preview of why longer conte
 
 Today's large language models still optimize the same objective - likelihood of text - but with neural networks instead of count tables. The **perplexity metric** carries over: researchers report PP on held-out corpora when comparing architectures.
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) develops RNN-based sequence models that learn $P(w_i \mid w_1, \ldots, w_{i-1})$ without explicit n-gram tables. [Chapter 24, Section 2](../chapter-24-deep-learning-nlp/section-02-neural-language-models.md) applies this directly to language modeling.
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) develops RNN-based sequence models that learn $P(w_i \mid w_1, \ldots, w_{i-1})$ without explicit n-gram tables. [Chapter 24, Section 2](../chapter-24-deep-learning-nlp/section-02-neural-language-models.md) applies this directly to language modeling.
 
 | Era | Representation | Context |
 |-----|--------------|---------|
@@ -248,7 +248,7 @@ The Chapter 23 lab asks you to implement steps 2-4 on a real corpus.
 
 1. Why does a trigram model assign probability zero to a grammatically correct sentence never seen in training?
 2. If perplexity drops from 150 to 75, did the model improve? What else would you check?
-3. How does an n-gram LM differ from the bag-of-words model in [Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md)?
+3. How does an n-gram LM differ from the bag-of-words model in [Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md)?
 4. When might you still deploy an n-gram model in 2026?
 
 ---

@@ -140,7 +140,7 @@ These systems exemplify the [rational agent](../../GLOSSARY.md#rational-agent) v
 | Vision | Segment Anything Model (SAM) | 25 |
 | Robotics | Boston Dynamics Atlas | 26 |
 
-If you know [Course 1's ML chapters](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/README.md), you have touched the **learning column**. This course fills the rest.
+If you know [Course 1's ML chapters](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/README.md), you have touched the **learning column**. This course fills the rest.
 
 ---
 

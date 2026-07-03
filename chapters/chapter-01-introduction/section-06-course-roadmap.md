@@ -53,7 +53,7 @@ Different chapters equip agents with different **competences**:
 | Robotics | "How do I act in the physical world?" | 26 |
 | Ethics | "What should I optimize - and for whom?" | 27-28 |
 
-Your [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md) experience maps directly to the **Learning** row - but now you will see how learning interacts with search (AlphaGo), logic (knowledge graphs + LLMs), and probability (Bayesian deep learning).
+Your [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md) experience maps directly to the **Learning** row - but now you will see how learning interacts with search (AlphaGo), logic (knowledge graphs + LLMs), and probability (Bayesian deep learning).
 
 ---
 
@@ -107,7 +107,7 @@ Topics: Bayesian networks, HMMs, MDPs, POMDPs, game theory. If Course 1's [super
 
 | Chapter | Topics | Course 1 bridge
 |--------|--------|-----------------|
-| 19 | Decision trees, linear models, ensembles | [Chapter 02-03](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/README.md) |
+| 19 | Decision trees, linear models, ensembles | [Chapter 02-03](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/README.md) |
 | 20 | EM, probabilistic models | Beyond Course 1 |
 | 21 | Neural networks, CNNs, RNNs | Preview of Course 3 |
 | 22 | Reinforcement learning | AlphaGo, robotics |

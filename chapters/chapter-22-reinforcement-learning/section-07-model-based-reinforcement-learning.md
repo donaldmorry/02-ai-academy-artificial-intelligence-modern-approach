@@ -139,7 +139,7 @@ $$
 $$
 > **Readable form:** The update moves an estimate toward a reward-informed target using the learning rate.
 
-Train $f_\mathbf{w}$ by supervised regression on $(s,a) \to s'$ transitions - [Course 1 regression](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/README.md) machinery applies.
+Train $f_\mathbf{w}$ by supervised regression on $(s,a) \to s'$ transitions - [Course 1 regression](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/README.md) machinery applies.
 
 **Ensemble models** (PETS, MBPO) capture epistemic uncertainty - plan cautiously where model is uncertain.
 
@@ -173,7 +173,7 @@ z_{t+1} = f(z_t, a_t), \quad \hat{o}_{t+1} = g(z_{t+1})
 $$
 > **Readable form:** The update moves an estimate toward a reward-informed target using the learning rate.
 
-Agent trains in **dream** latent space - extreme sample efficiency for visual domains. Connects to [Course 3 autoencoders](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md) and representation learning ([Chapter 15](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-15-representation-learning/README.md)).
+Agent trains in **dream** latent space - extreme sample efficiency for visual domains. Connects to [Course 3 autoencoders](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md) and representation learning ([Chapter 15](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-15-representation-learning/README.md)).
 
 ---
 

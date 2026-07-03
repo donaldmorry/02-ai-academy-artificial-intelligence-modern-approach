@@ -61,7 +61,7 @@ $$
 $$
 > **Readable form:** This derivative measures local sensitivity: a larger magnitude means the output changes more for a small input change.
 
-**Adam** adapts per-parameter learning rates using running estimates of first and second moments of gradients - default choice in many frameworks ([Course 1 Keras](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md)).
+**Adam** adapts per-parameter learning rates using running estimates of first and second moments of gradients - default choice in many frameworks ([Course 1 Keras](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md)).
 
 | Optimizer | When useful |
 |-----------|-------------|
@@ -231,15 +231,15 @@ def fit(model, X_train, y_train, X_val, y_val, epochs=30, lr=1e-3):
 
 | Topic | Course 1 link |
 |-------|---------------|
-| Keras `fit` callbacks | [02-your-first-keras-model.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md) |
-| CNN training | [04-cnn-image-classification.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md) |
+| Keras `fit` callbacks | [02-your-first-keras-model.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md) |
+| CNN training | [04-cnn-image-classification.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md) |
 | Overfitting / dropout | [Chapter 19](../chapter-19-learning-from-examples/README.md) bias-variance |
 
 ---
 
 ## Connection to Course 3
 
-Rigorous treatment of optimization and generalization: [Course 3 Chapter 07](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md), [Chapter 08](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md).
+Rigorous treatment of optimization and generalization: [Course 3 Chapter 07](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md), [Chapter 08](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md).
 
 ---
 

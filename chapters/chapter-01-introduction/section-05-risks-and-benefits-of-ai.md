@@ -85,7 +85,7 @@ predictions = model.predict(new_applicants)       # may perpetuate injustice
 
 > **Readable form:** If you train AI on "how we used to do things," it will automate **how we used to be unfair**. Garbage in, garbage perpetuated - at scale.
 
-Course 1's [classification models](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md) taught accuracy; real deployment requires **asking: accurate for whom?**
+Course 1's [classification models](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md) taught accuracy; real deployment requires **asking: accurate for whom?**
 
 ### Privacy and Surveillance
 
@@ -142,7 +142,7 @@ LLMs generate **plausible false statements** without knowing they are false. Dep
 
 ### Distribution Shift
 
-Models trained on one population fail on another. Your [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-07-model-comparison-and-cross-validation.md) train/test split assumes similar distributions; deployment often violates that assumption.
+Models trained on one population fail on another. Your [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-07-model-comparison-and-cross-validation.md) train/test split assumes similar distributions; deployment often violates that assumption.
 
 ### Opacity
 

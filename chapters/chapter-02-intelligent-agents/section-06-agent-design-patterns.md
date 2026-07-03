@@ -63,7 +63,7 @@ def reactive_pattern(percept, rules):
     return rules.match(percept)  # O(1) lookup, microseconds
 ```
 
-**Techniques:** Hand-crafted rules, lookup tables, shallow [neural networks](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md) for perception → reflex
+**Techniques:** Hand-crafted rules, lookup tables, shallow [neural networks](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md) for perception → reflex
 
 **Avoid:** Deep multi-step planning - too slow for dynamic layer
 
@@ -170,12 +170,12 @@ From [Section 1.4](../chapter-01-introduction/section-04-state-of-the-art.md), A
 
 **Examples:** Spam filters, recommendation systems, modern game agents, LLM assistants
 
-**Techniques:** [Supervised learning](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) (Chapter 19), deep learning (Chapter 21), reinforcement learning (Chapter 22)
+**Techniques:** [Supervised learning](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) (Chapter 19), deep learning (Chapter 21), reinforcement learning (Chapter 22)
 
 | Learning type | When | Course 1 anchor |
 |-------------|------|-----------------|
 | Supervised | Labels available | Classification/regression chapters |
-| Unsupervised | Structure discovery | [k-means](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) |
+| Unsupervised | Structure discovery | [k-means](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) |
 | Reinforcement | Sequential rewards | Preview Chapter 22 |
 
 ---

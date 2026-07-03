@@ -52,10 +52,10 @@ Implement EM for a two-component Gaussian mixture on 2D data. Plot convergence o
 
 | Topic in this chapter | Where it deepens |
 |---------------------|------------------|
-| Clustering | [Course 1 Chapter 01](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md): k-means vs. probabilistic mixtures |
-| Naive Bayes generative models | [Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-04-naive-bayes-for-text.md): count-based parameter learning |
-| Linear factor models | [Course 3 Chapter 13](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md): PCA and probabilistic PCA |
-| Structured PGMs | [Course 3 Chapter 16](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md): graphical model foundations |
+| Clustering | [Course 1 Chapter 01](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md): k-means vs. probabilistic mixtures |
+| Naive Bayes generative models | [Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-04-naive-bayes-for-text.md): count-based parameter learning |
+| Linear factor models | [Course 3 Chapter 13](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md): PCA and probabilistic PCA |
+| Structured PGMs | [Course 3 Chapter 16](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md): graphical model foundations |
 | HMM training | Course 2 Chapter 14: Baum-Welch as EM |
 
 ---

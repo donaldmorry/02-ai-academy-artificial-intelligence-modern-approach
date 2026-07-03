@@ -57,7 +57,7 @@ Humorous analogy: environment classification is like reading the **weather forec
 | **A** | Label as spam/ham, quarantine, update filters |
 | **S** | Message text, headers, attachments, metadata |
 
-Compare to [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md): PEAS adds **actuators** and **environment dynamics** around the classifier. A spam filter that only outputs labels is half an agent; one that **acts** on mailboxes is complete.
+Compare to [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md): PEAS adds **actuators** and **environment dynamics** around the classifier. A spam filter that only outputs labels is half an agent; one that **acts** on mailboxes is complete.
 
 ```python
 # PEAS as a design document (illustrative)
@@ -133,7 +133,7 @@ Stochastic environments demand **probability** (Chapters 12-18) and often **cont
 |----------|------------|
 | Image classification (one image) | Chess, robotics navigation |
 | Spam label per email (often) | Portfolio management |
-| [k-NN](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-05-supervised-learning-k-nearest-neighbors.md) on fixed rows | Customer support over conversation |
+| [k-NN](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-05-supervised-learning-k-nearest-neighbors.md) on fixed rows | Customer support over conversation |
 
 Sequential environments require **planning** and **memory** - mistakes compound.
 
@@ -200,10 +200,10 @@ Chess engines lean on **search** (Chapter 05). Poker bots need **probability**, 
 
 | Task | Typical environment class |
 |------|---------------------------|
-| House price [regression](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-02-linear-regression.md) | Single-agent, episodic, static, often batch |
+| House price [regression](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-02-linear-regression.md) | Single-agent, episodic, static, often batch |
 | Image classification | Episodic per image; environment static at inference |
 | Online ad click prediction | Sequential, dynamic, stochastic |
-| [Clustering](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) | Offline; not really an agent environment |
+| [Clustering](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) | Offline; not really an agent environment |
 
 Course 1 focused on **episodic prediction**. Course 2 expands to **embedded agents** in rich worlds.
 
@@ -263,7 +263,7 @@ When starting a project, fill this template before coding:
 ## Reflection Questions
 
 1. Write a PEAS description for a smart-home thermostat that learns occupant preferences.
-2. Classify the environment of a [random forest](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-04-ensemble-methods-random-forests-and-gradient-boosting.md) predicting churn from monthly snapshots. Is it an agent problem?
+2. Classify the environment of a [random forest](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-04-ensemble-methods-random-forests-and-gradient-boosting.md) predicting churn from monthly snapshots. Is it an agent problem?
 3. Which single property makes autonomous driving hardest? Defend your choice.
 4. Is a two-player video game always multiagent? When could it be treated as single-agent?
 

@@ -55,9 +55,9 @@ Hands-on lab: [Lab 22 - Tabular Q-Learning](./section-lab-22-tabular-q-learning.
 | Topic in this chapter | Where it deepens |
 |---------------------|------------------|
 | MDP theory | Course 2 Chapter 17: Bellman equations foundation |
-| Neural function approximation | [Course 1 Chapter 09](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md): Keras training basics |
-| Deep RL at scale | [Course 3 Chapter 12](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md): advanced applications |
-| Optimization for policy learning | [Course 3 Chapter 08](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md): SGD, Adam |
+| Neural function approximation | [Course 1 Chapter 09](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md): Keras training basics |
+| Deep RL at scale | [Course 3 Chapter 12](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md): advanced applications |
+| Optimization for policy learning | [Course 3 Chapter 08](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md): SGD, Adam |
 
 ---
 

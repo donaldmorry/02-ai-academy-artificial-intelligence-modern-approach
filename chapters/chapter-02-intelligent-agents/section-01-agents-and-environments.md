@@ -43,7 +43,7 @@ where $\mathcal{P}^*$ is the set of all possible percept sequences and $\mathcal
 
 A [percept](../../GLOSSARY.md#percept) is the agent's **subjective** sensory input at one instant - not necessarily the full truth about the world. A smoke detector's percept might be "alarm triggered," while the true state might be "toast burning" or "house fire." This distinction becomes critical in [Section 2.3](./section-03-the-nature-of-environments.md) when we classify **partially observable** environments.
 
-From [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md), you trained models on **feature vectors** - fixed snapshots of data. Agent percepts are similar but **sequential**: the agent receives a stream over time, and past percepts may matter for the current decision.
+From [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md), you trained models on **feature vectors** - fixed snapshots of data. Agent percepts are similar but **sequential**: the agent receives a stream over time, and past percepts may matter for the current decision.
 
 ---
 
@@ -102,7 +102,7 @@ def run_agent(environment, agent_program, max_steps=1000):
 
 > **Readable form:** The agent loop is: sense the world, remember what you sensed, pick an action, do it, repeat until done or out of time.
 
-This loop is the **universal skeleton** of intelligent systems. Your [k-nearest neighbors classifier](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-05-supervised-learning-k-nearest-neighbors.md) is not really an agent - it maps one input to one output with no sequential interaction. A fraud detection system that monitors a stream of transactions and can block cards **is** an agent.
+This loop is the **universal skeleton** of intelligent systems. Your [k-nearest neighbors classifier](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-05-supervised-learning-k-nearest-neighbors.md) is not really an agent - it maps one input to one output with no sequential interaction. A fraud detection system that monitors a stream of transactions and can block cards **is** an agent.
 
 ---
 
@@ -206,7 +206,7 @@ Skipping these produces clever algorithms solving the wrong problem - like a che
 
 1. Is a calculator app an agent? Argue both sides using the sensor/actuator definition.
 2. For a warehouse picking robot, list three sensors and three actuators. What percepts do they produce?
-3. How does the agent program loop differ from the train/predict loop you used in [Course 1 Lab 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-lab-01-customer-segmentation-and-flower-classification.md)?
+3. How does the agent program loop differ from the train/predict loop you used in [Course 1 Lab 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-lab-01-customer-segmentation-and-flower-classification.md)?
 4. Why is a lookup-table agent function impossible to implement for chess, even in principle, with finite memory?
 
 ---

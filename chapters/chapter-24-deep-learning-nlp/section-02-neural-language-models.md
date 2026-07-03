@@ -11,7 +11,7 @@
 
 [Chapter 23, Section 1](../chapter-23-natural-language-processing/section-01-language-models.md) estimated $P(w_i \mid w_{i-n+1}, \ldots, w_{i-1})$ from counts. **Neural language models** use continuous [embeddings](./section-01-word-embeddings.md) and learned functions to generalize across contexts.
 
-Bengio et al. (2003) pioneered feedforward neural LMs; RNNs ([Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md)) became the workhorse until transformers.
+Bengio et al. (2003) pioneered feedforward neural LMs; RNNs ([Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md)) became the workhorse until transformers.
 
 > **Readable form:** A neural LM learns a flexible function that predicts the next word from context - sharing statistical strength across similar words and phrases.
 
@@ -70,7 +70,7 @@ $$
 | Shared parameters across time | Vanishing gradients |
 | Compact model | Hard to parallelize |
 
-[Course 3 Chapter 10, Sections 10.1-10.3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) derive BPTT and LSTM solutions.
+[Course 3 Chapter 10, Sections 10.1-10.3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) derive BPTT and LSTM solutions.
 
 ---
 
@@ -90,7 +90,7 @@ $$
 
 LSTM LMs set state-of-the-art perplexity through the mid-2010s - used in speech recognition rescoring and keyboard prediction.
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) builds LSTM sentiment classifiers - classification head instead of next-word softmax, same backbone.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) builds LSTM sentiment classifiers - classification head instead of next-word softmax, same backbone.
 
 ---
 
@@ -188,7 +188,7 @@ Pretrained LMs provide **contextual features** for:
 
 LSTMs extend effective context but struggle with very long dependencies and parallel training. **Self-attention** ([Section 24.4](./section-04-the-transformer.md)) directly connects any two positions - motivating the architecture that dominates today.
 
-[Course 3 Chapter 10, Section 10.7](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) previews attention as the bridge from RNNs to transformers.
+[Course 3 Chapter 10, Section 10.7](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) previews attention as the bridge from RNNs to transformers.
 
 ---
 
@@ -231,7 +231,7 @@ Neural LMs capture long-range patterns; [n-grams](../chapter-23-natural-language
 1. How do embeddings help neural LMs generalize beyond training n-grams?
 2. Why does perplexity decrease when moving from trigrams to LSTMs?
 3. What is the computational bottleneck of RNN language model training?
-4. How does an LSTM sentiment classifier in [Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) differ from an LSTM LM?
+4. How does an LSTM sentiment classifier in [Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) differ from an LSTM LM?
 
 ---
 

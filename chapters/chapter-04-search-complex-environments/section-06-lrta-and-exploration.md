@@ -148,7 +148,7 @@ D* Lite ([Chapter 12](../chapter-11-automated-planning/README.md) robotics liter
 
 LRTA* with zero initial $H$ explores outward; as $H$ improves, behavior shifts toward exploitation.
 
-**Infinite grid:** without exploration strategy, agent may loop - mark visited or use **upper confidence** style bonuses (link to RL curiosity, [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md) optional topics).
+**Infinite grid:** without exploration strategy, agent may loop - mark visited or use **upper confidence** style bonuses (link to RL curiosity, [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md) optional topics).
 
 ---
 
@@ -210,7 +210,7 @@ After $T$ steps, map coverage grows; $H$ approximates true distances on revealed
 | **Suboptimality** | First trial may wander |
 | **Local minima in $H$** | Wrong estimates → wrong moves |
 | **Non-stationary** | Moving obstacles need D* or replan |
-| **Large state space** | Tabular $H$ impractical - function approximation ([Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md)) |
+| **Large state space** | Tabular $H$ impractical - function approximation ([Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md)) |
 
 ---
 

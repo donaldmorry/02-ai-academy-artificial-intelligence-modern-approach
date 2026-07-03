@@ -161,7 +161,7 @@ When $X_i$ or parents are continuous, CPTs become **parametric conditionals**:
 |------|-------------------|
 | $P(X_i \mid \text{Pa}) = \mathcal{N}(\mu_{ij}, \sigma_{ij}^2)$ | Mean, variance per parent config |
 | Linear Gaussian | Regression coefficients |
-| CPD with neural net | Weights ([Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md)) |
+| CPD with neural net | Weights ([Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md)) |
 
 MLE: fit regression of $X_i$ on $\text{Pa}(X_i)$ for each configuration or shared parameters.
 
@@ -256,13 +256,13 @@ Full pipeline: **learn parameters** → **infer** → **decide** ([Chapter 16](.
 |----------|----------------------|
 | Frequency tables | CPT MLE |
 | Laplace smoothing | Dirichlet prior |
-| [Supervised learning](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) | Local conditional models |
+| [Supervised learning](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) | Local conditional models |
 
 ---
 
 ## Connection to Course 3
 
-[Structured probabilistic models](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md) scale BNs to high dimensions - parameter learning uses gradients rather than pure counting.
+[Structured probabilistic models](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md) scale BNs to high dimensions - parameter learning uses gradients rather than pure counting.
 
 ---
 

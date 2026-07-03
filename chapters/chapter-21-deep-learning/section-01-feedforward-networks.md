@@ -99,7 +99,7 @@ XOR truth table: $(0,0)\!\to\!0$, $(0,1)\!\to\!1$, $(1,0)\!\to\!1$, $(1,1)\!\to\
 # y  = sigmoid(h1 + h2 - 1.5)
 ```
 
-This mirrors [Course 1's first Keras model](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md): stack `Dense` layers until the task becomes linearly separable in the final hidden space.
+This mirrors [Course 1's first Keras model](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/section-02-your-first-keras-model.md): stack `Dense` layers until the task becomes linearly separable in the final hidden space.
 
 ---
 
@@ -180,10 +180,10 @@ model = Sequential([
 
 | Course 1 | AIMA link |
 |----------|-----------|
-| Chapter 08 - Why deep learning | [01-why-deep-learning.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): motivation before formalism |
-| Chapter 09 - Keras MLP | [README.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md): compile/fit workflow you now explain mathematically |
-| Chapter 03 - MNIST | [08-digit-recognition-mnist.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-08-case-study-mnist-digit-recognition.md): same task, shallow vs deep |
-| ML workflow | [06-ml-workflow.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md): train/val/test discipline carries over |
+| Chapter 08 - Why deep learning | [01-why-deep-learning.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): motivation before formalism |
+| Chapter 09 - Keras MLP | [README.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md): compile/fit workflow you now explain mathematically |
+| Chapter 03 - MNIST | [08-digit-recognition-mnist.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-08-case-study-mnist-digit-recognition.md): same task, shallow vs deep |
+| ML workflow | [06-ml-workflow.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md): train/val/test discipline carries over |
 
 ---
 
@@ -191,10 +191,10 @@ model = Sequential([
 
 | AIMA topic | Goodfellow et al. |
 |------------|-------------------|
-| XOR and depth | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.1 |
-| Hidden units | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.3 - ReLU analysis |
-| Universal approximation | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.6 - depth efficiency |
-| Architecture design | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.4 |
+| XOR and depth | [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.1 |
+| Hidden units | [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.3 - ReLU analysis |
+| Universal approximation | [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.6 - depth efficiency |
+| Architecture design | [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) §6.4 |
 
 ---
 

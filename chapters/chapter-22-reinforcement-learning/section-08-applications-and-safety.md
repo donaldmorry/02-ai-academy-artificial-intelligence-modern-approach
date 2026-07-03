@@ -81,7 +81,7 @@ When reward is hard to specify, learn from **expert demonstrations**:
 
 AIMA §22.6 (covered in [Section 22.6](./section-06-policy-search-and-policy-gradients.md) context) notes **inverse RL assumes expert acts optimally in isolation** - fails when expert **teaches** (surgeon explaining to student). That scenario is a **two-person assistance game** ([Chapter 18](../chapter-18-multiagent-decision-making/README.md)), not single-agent IRL.
 
-**RLHF** (reinforcement learning from human feedback) - modern alignment for LLMs ([Course 4 Chapter 08](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md)): humans rank outputs; learned reward model guides policy optimization.
+**RLHF** (reinforcement learning from human feedback) - modern alignment for LLMs ([Course 4 Chapter 08](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md)): humans rank outputs; learned reward model guides policy optimization.
 
 ---
 
@@ -183,7 +183,7 @@ MDP theory ([Chapter 17](../chapter-17-making-complex-decisions/README.md)) prov
 | Topic | Where |
 |-------|-------|
 | Advanced policy optimization | [Course 3 Chapter 12](./README.md) |
-| RLHF for LLMs | [Course 4 Chapter 08](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md) |
+| RLHF for LLMs | [Course 4 Chapter 08](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md) |
 
 ---
 

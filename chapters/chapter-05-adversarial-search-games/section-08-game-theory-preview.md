@@ -103,7 +103,7 @@ Reverse game theory: design **rules** so rational self-interested players produc
 | AI system | Game-theoretic view |
 |-----------|---------------------|
 | Ad auctions | Bayes-Nash equilibrium |
-| GAN training | Two-player non-zero-sum ([Course 4](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/README.md)) |
+| GAN training | Two-player non-zero-sum ([Course 4](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/README.md)) |
 | Security games | Stackelberg equilibrium |
 | LLM alignment | Principal-agent games |
 

@@ -52,10 +52,10 @@ Train a CNN on CIFAR-10 and an LSTM on a character-level text task. Compare trai
 
 | Topic in this chapter | Where it deepens |
 |---------------------|------------------|
-| Keras/TensorFlow practice | [Course 1 Chapters 08–10](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/README.md): applied deep learning |
-| Mathematical foundations | [Course 3 Chapters 06–09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md): rigorous DL treatment |
-| CNN architectures | [Course 3 Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md): conv nets in depth |
-| Sequence modeling | [Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md): RNNs and attention |
+| Keras/TensorFlow practice | [Course 1 Chapters 08–10](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/README.md): applied deep learning |
+| Mathematical foundations | [Course 3 Chapters 06–09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md): rigorous DL treatment |
+| CNN architectures | [Course 3 Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md): conv nets in depth |
+| Sequence modeling | [Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md): RNNs and attention |
 
 ---
 

@@ -78,7 +78,7 @@ Example: $z^{(i)} = \boldsymbol{\mu}_{k}$ cluster mean, $\mathbf{x}^{(i)} \sim \
 
 Cluster assignment follows CRP - **no fixed $K$**. With more data, new clusters can appear.
 
-Compare [k-means](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) (fixed $k$) and [EM GMM](./section-04-em-algorithm.md) (fixed $K$).
+Compare [k-means](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) (fixed $k$) and [EM GMM](./section-04-em-algorithm.md) (fixed $K$).
 
 ---
 
@@ -136,7 +136,7 @@ Production DPMM uses conjugate base measures for analytic marginalization.
 | Document | Subset mixture of topics |
 | Word | Drawn from topic |
 
-Connects to NLP and [Course 3 representation learning](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-15-representation-learning/README.md) - neural topic models as modern successors.
+Connects to NLP and [Course 3 representation learning](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-15-representation-learning/README.md) - neural topic models as modern successors.
 
 ---
 
@@ -187,7 +187,7 @@ Full treatment exceeds AIMA Chapter 20 scope - flagged for advanced reading.
 | Course 1 | Nonparametric Bayes |
 |----------|---------------------|
 | Choosing $k$ in k-means | $\alpha$ governs cluster birth rate |
-| [Model selection](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning) | Integrated complexity control |
+| [Model selection](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning) | Integrated complexity control |
 | Bootstrap stability | Posterior over partitions |
 
 ---
@@ -196,9 +196,9 @@ Full treatment exceeds AIMA Chapter 20 scope - flagged for advanced reading.
 
 | Course 3 | Link |
 |----------|------|
-| [Deep generative models](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Neural samplers vs. DP mixtures |
-| [VAE](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Continuous latent - different but related uncertainty |
-| [Approximate inference](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md) | Variational truncations of DPMM |
+| [Deep generative models](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Neural samplers vs. DP mixtures |
+| [VAE](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Continuous latent - different but related uncertainty |
+| [Approximate inference](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md) | Variational truncations of DPMM |
 
 Modern **Bayesian deep learning** applies nonparametric ideas to widths, depths, and functional priors - active research frontier.
 

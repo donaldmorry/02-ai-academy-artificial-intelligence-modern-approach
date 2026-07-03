@@ -10,7 +10,7 @@
 
 Chapters 23.1-23.7 built individual components. This section wires them into **end-to-end classical NLP pipelines** - the architecture that powered machine translation, speech recognition, and information retrieval before the transformer era.
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) implements neural pipelines in Keras. Understanding classical integration clarifies what those neural models replaced - and what they still depend on (tokenization, evaluation metrics).
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) implements neural pipelines in Keras. Understanding classical integration clarifies what those neural models replaced - and what they still depend on (tokenization, evaluation metrics).
 
 > **Readable form:** A classical NLP pipeline is an assembly line - each station transforms text until you get structure, meaning, or a probability score.
 
@@ -47,7 +47,7 @@ Chapters 23.1-23.7 built individual components. This section wires them into **e
                          Application Layer
 ```
 
-Not every application runs all stages - [spam filters](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-06-spam-filtering.md) skip parsing; speech recognizers lean heavily on [language models](./section-01-language-models.md).
+Not every application runs all stages - [spam filters](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-06-spam-filtering.md) skip parsing; speech recognizers lean heavily on [language models](./section-01-language-models.md).
 
 ---
 
@@ -62,7 +62,7 @@ Not every application runs all stages - [spam filters](https://github.com/Collab
 | **Question answering** | IR + parse + semantics | Pipeline QA |
 | **Sentiment** | Tokenize + classify | Often bag-of-words |
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) covers the sentiment row with scikit-learn - the simplest viable pipeline.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) covers the sentiment row with scikit-learn - the simplest viable pipeline.
 
 ---
 
@@ -128,7 +128,7 @@ def extract_features(sentence, parser, tagger):
     }
 ```
 
-Feed features to logistic regression or SVM - exactly the [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) pattern extended with linguistic structure.
+Feed features to logistic regression or SVM - exactly the [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) pattern extended with linguistic structure.
 
 ---
 
@@ -200,13 +200,13 @@ Output populates [knowledge bases](../chapter-10-knowledge-representation/README
 | Data-efficient (some tasks) | Feature engineering | Automatic features |
 | Small models | Limited generalization | Scale + pretraining |
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) introduces RNNs for sequences; [Chapter 24](../chapter-24-deep-learning-nlp/README.md) completes the neural story with transformers.
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) introduces RNNs for sequences; [Chapter 24](../chapter-24-deep-learning-nlp/README.md) completes the neural story with transformers.
 
 **Recommended learning path:**
 
 1. Build classical trigram LM + CYK parser (this chapter's lab)
-2. Replicate sentiment with [Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) baseline
-3. Beat baseline with [Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) BERT finetuning
+2. Replicate sentiment with [Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) baseline
+3. Beat baseline with [Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) BERT finetuning
 4. Understand *why* perplexity improved at each step
 
 ---

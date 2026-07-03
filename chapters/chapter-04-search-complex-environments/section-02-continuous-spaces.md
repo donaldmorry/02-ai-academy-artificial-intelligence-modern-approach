@@ -81,13 +81,13 @@ def gradient_descent(f, grad_f, x0, alpha=0.01, steps=1000):
 | Variant | Idea | When useful |
 |---------|------|-------------|
 | **Batch GD** | Full gradient each step | Smooth, moderate $n$ |
-| **Stochastic GD** | Mini-batch gradient | Large datasets ([Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md)) |
+| **Stochastic GD** | Mini-batch gradient | Large datasets ([Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md)) |
 | **Momentum** | Velocity term dampens zigzag | Ravines in loss landscape |
 | **Adam** | Adaptive per-coordinate rates | Deep learning default |
 
 Gradient descent is **local**: it converges to critical points (minima, maxima, saddles). Combine with **random restarts** from [Section 4.1](./section-01-local-search.md) or **simulated annealing** for global search.
 
-**Connection:** The same math powers neural network training in [Course 3 Chapter 04](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/README.md) - loss $L(\mathbf{w})$ minimized by $\mathbf{w} \leftarrow \mathbf{w} - \alpha \nabla L$.
+**Connection:** The same math powers neural network training in [Course 3 Chapter 04](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/README.md) - loss $L(\mathbf{w})$ minimized by $\mathbf{w} \leftarrow \mathbf{w} - \alpha \nabla L$.
 
 ---
 
@@ -219,7 +219,7 @@ Discretization **restores** the five-tuple from [Section 3.1](../chapter-03-solv
 |-------|--------|
 | MDP continuous states | [Chapter 17](../chapter-17-making-complex-decisions/README.md) |
 | Motion planning (RRT, PRM) | [Chapter 12](../chapter-11-automated-planning/README.md) |
-| Deep learning optimization | [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md) |
+| Deep learning optimization | [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md) |
 | CSP with continuous variables | [Chapter 06](../chapter-06-constraint-satisfaction/README.md) |
 
 ---

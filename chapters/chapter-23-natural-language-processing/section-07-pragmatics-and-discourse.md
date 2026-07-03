@@ -71,7 +71,7 @@ Algorithms:
 - **Statistical** - classifiers on mention pairs
 - **Neural** - end-to-end coreference resolvers (e.g., SpanBERT)
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) treats each sentence independently; discourse models maintain **entity registers** across sentences.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) treats each sentence independently; discourse models maintain **entity registers** across sentences.
 
 $$
 P(\text{antecedent}(m_i) = m_j \mid \text{document})
@@ -176,9 +176,9 @@ No single sentence contains the answer - **discourse + knowledge** bridge requir
 | Dialogue | POMDP planners + NLU | LLM agents |
 | Discourse | RST parsers | Implicit in pretraining |
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) sequence models process token streams; long-document transformers (Longformer, etc.) extend context for discourse.
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) sequence models process token streams; long-document transformers (Longformer, etc.) extend context for discourse.
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) focuses on sentence-level tasks - this section explains what happens when you scale to documents.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) focuses on sentence-level tasks - this section explains what happens when you scale to documents.
 
 ---
 
@@ -225,7 +225,7 @@ Understanding requires:
 1. Why is "Can you open the window?" not a yes/no question in most contexts?
 2. What features help resolve "he" in a two-sentence paragraph about two men?
 3. How does discourse structure differ from [parse tree](./section-03-grammar-formalisms.md) structure?
-4. When would sentence-level [sentiment analysis](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) fail without discourse context?
+4. When would sentence-level [sentiment analysis](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) fail without discourse context?
 
 ---
 

@@ -39,7 +39,7 @@ $$
 $$
 > **Readable form:** The score ranks search nodes by combining cost so far with an estimate of remaining cost.
 
-Neural networks output logits or $(\mu, \sigma)$ per action dimension - [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) supplies the architecture.
+Neural networks output logits or $(\mu, \sigma)$ per action dimension - [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) supplies the architecture.
 
 | Representation | Action type | Exploration |
 |----------------|-------------|-------------|
@@ -236,9 +236,9 @@ REINFORCE skips explicit $Q$ table - gradient steps on $\pi$ toward high-return 
 
 ## Connection to Course 1 and Course 3
 
-Policy gradients use **stochastic gradient ascent** - same optimizer machinery as [Course 3 Chapter 08](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md) (Adam, learning rates, clipping).
+Policy gradients use **stochastic gradient ascent** - same optimizer machinery as [Course 3 Chapter 08](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md) (Adam, learning rates, clipping).
 
-Unlike [supervised classification](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-02-logistic-regression.md), labels are **returns** or **advantages** - non-stationary, high-variance targets. [Regularization](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/section-01-regularization-strategies.md) and entropy bonuses prevent premature policy collapse.
+Unlike [supervised classification](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-02-logistic-regression.md), labels are **returns** or **advantages** - non-stationary, high-variance targets. [Regularization](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/section-01-regularization-strategies.md) and entropy bonuses prevent premature policy collapse.
 
 **RLHF** for LLMs ([Section 22.8](./section-08-applications-and-safety.md)) uses PPO to fine-tune language model policies on human preference rewards - policy gradients at billion-parameter scale.
 

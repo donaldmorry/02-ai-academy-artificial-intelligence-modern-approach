@@ -15,7 +15,7 @@ An **agentic LLM** is a language-model-centered agent that can maintain task sta
 
 The idea connects modern LLM systems back to early course ideas: PEAS descriptions from [Chapter 02](../chapter-02-intelligent-agents/README.md), search from Chapters 03-04, planning from Chapters 10-11, uncertainty from Chapters 12-15, reinforcement learning from Chapters 16-17, and language models from [Chapter 24](../chapter-24-deep-learning-nlp/README.md).
 
-For production engineering details, compare this AIMA framing with Course 4's [modern LLM engineering section](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
+For production engineering details, compare this AIMA framing with Course 4's [modern LLM engineering section](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
 
 ---
 
@@ -214,7 +214,7 @@ The code is intentionally small. A real controller would add authentication, cal
 - [Chapter 11](../chapter-11-automated-planning/README.md) - planning and execution
 - [Chapter 24](../chapter-24-deep-learning-nlp/README.md) - transformers and language models
 - [Chapter 27](../chapter-27-philosophy-ethics-safety/README.md) - safety, alignment, and accountability
-- [Course 4 Section 14.9](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md) - RAG, LoRA, deployment, and modern LLM system design
+- [Course 4 Section 14.9](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md) - RAG, LoRA, deployment, and modern LLM system design
 
 ---
 

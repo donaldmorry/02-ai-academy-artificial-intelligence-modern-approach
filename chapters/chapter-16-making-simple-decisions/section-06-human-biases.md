@@ -155,7 +155,7 @@ AI systems reporting calibrated probabilities ([Chapter 12](../chapter-12-quanti
 Machine learning often uses **loss functions** (cross-entropy, MSE) that don't match human perception of errors:
 
 - False negative vs. false positive costs differ in medicine - encode in utility matrix, not 0/1 loss
-- Asymmetric costs → weighted loss or cost-sensitive learning ([Course 1 Chapter 03](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md))
+- Asymmetric costs → weighted loss or cost-sensitive learning ([Course 1 Chapter 03](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md))
 
 RL reward shaping must align with true objectives - humans' loss aversion suggests **asymmetric rewards** may be needed when training agents for human-facing tasks.
 

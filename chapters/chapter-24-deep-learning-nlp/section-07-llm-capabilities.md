@@ -49,7 +49,7 @@ System: You are a concise technical tutor. Use examples.
 User: Explain backpropagation.
 ```
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) trained classifiers on thousands of labels; few-shot prompting can match rough performance with dozens of examples in context - trading training compute for inference context length.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) trained classifiers on thousands of labels; few-shot prompting can match rough performance with dozens of examples in context - trading training compute for inference context length.
 
 ---
 
@@ -131,7 +131,7 @@ This revives the [agent architecture](../chapter-02-intelligent-agents/README.md
 | QA | RAG + GPT |
 | Dialogue | Instruction-tuned chat models |
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) lab progression (LSTM → BERT) maps to production decision trees.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) lab progression (LSTM → BERT) maps to production decision trees.
 
 ---
 
@@ -159,7 +159,7 @@ This revives the [agent architecture](../chapter-02-intelligent-agents/README.md
 
 **Distillation** - train small model to mimic large - and **quantization** (INT8, INT4) reduce deployment cost.
 
-Compare to [bag-of-words latency](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-08-pipelines-and-production-text-ml.md) - classical methods win on speed for simple tasks.
+Compare to [bag-of-words latency](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-08-pipelines-and-production-text-ml.md) - classical methods win on speed for simple tasks.
 
 ---
 
@@ -188,7 +188,7 @@ Applications: document understanding, chart analysis, visual QA - bridges to [Ch
 
 1. **Define task** - generation vs classification vs extraction
 2. **Choose model** - size, license, hosting (API vs self-hosted)
-3. **Baseline** - [Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) simple model first
+3. **Baseline** - [Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) simple model first
 4. **Prototype** - prompt engineering before finetuning
 5. **Evaluate** - domain-specific test set with human review
 6. **Guardrails** - content filters, citation requirements, abstention
@@ -198,7 +198,7 @@ Applications: document understanding, chart analysis, visual QA - bridges to [Ch
 
 ## Connection to Sequence Modeling
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) taught RNNs for sequences; transformers extended capabilities but **sequence thinking** remains essential - context windows, streaming output, temporal dialogue state.
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) taught RNNs for sequences; transformers extended capabilities but **sequence thinking** remains essential - context windows, streaming output, temporal dialogue state.
 
 [Classical pipelines](../chapter-23-natural-language-processing/section-08-nlp-pipeline-integration.md) decomposed tasks explicitly; LLMs **unify** tasks behind one interface - with trade-offs in control and interpretability.
 
@@ -217,7 +217,7 @@ Applications: document understanding, chart analysis, visual QA - bridges to [Ch
 1. When does few-shot prompting outperform BERT finetuning?
 2. How does RAG address knowledge cutoff and hallucination?
 3. Why does chain-of-thought help arithmetic but increase cost?
-4. What task from [Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) would you still not trust to a zero-shot LLM?
+4. What task from [Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) would you still not trust to a zero-shot LLM?
 
 ---
 

@@ -237,7 +237,7 @@ Passive $Q$-evaluation supports **policy comparison**: which of two fixed polici
 
 ## Connection to Course 1
 
-Monte Carlo averaging resembles estimating mean accuracy on a [hold-out set](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md) - but RL returns are **correlated** within trajectories, not i.i.d. Bootstrapping in TD is unlike standard supervised epochs; it propagates value estimates across time ([Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md) contrasts RL with supervised ML).
+Monte Carlo averaging resembles estimating mean accuracy on a [hold-out set](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md) - but RL returns are **correlated** within trajectories, not i.i.d. Bootstrapping in TD is unlike standard supervised epochs; it propagates value estimates across time ([Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md) contrasts RL with supervised ML).
 
 ---
 

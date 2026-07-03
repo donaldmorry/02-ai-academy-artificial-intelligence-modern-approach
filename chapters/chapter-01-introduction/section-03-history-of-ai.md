@@ -41,7 +41,7 @@ Attendees included future Nobel-level figures. They believed **a few summers** o
 - **General Problem Solver** (1957) - means-ends analysis for puzzles
 - **Checkers program** (Samuel, 1959) - learned by playing itself; early [machine learning](../../GLOSSARY.md#machine-learning)
 
-Samuel's checkers work connects directly to [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md): learning from experience to improve performance - decades before sklearn existed.
+Samuel's checkers work connects directly to [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md): learning from experience to improve performance - decades before sklearn existed.
 
 ---
 
@@ -120,7 +120,7 @@ Simultaneously, **cheap desktop PCs** outperformed specialized Lisp machines. Th
 
 ## 1993-2011: The Statistical Revolution
 
-Three forces converged - the same trio that powered your [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md) curriculum:
+Three forces converged - the same trio that powered your [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md) curriculum:
 
 1. **Data** - the web generated text, clicks, and logs at scale
 2. **Compute** - PCs and clusters got fast enough

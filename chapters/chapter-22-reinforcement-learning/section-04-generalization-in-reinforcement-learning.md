@@ -20,7 +20,7 @@ tabular methods are **impossible**. The agent must **generalize** - share learne
 
 > **Readable form:** Tabular RL is like memorizing a separate phone number for every person on Earth. Generalization is learning patterns - area codes, country codes - so new numbers need less memorization.
 
-[Chapter 17](../chapter-17-making-complex-decisions/README.md) value iteration over explicit states faces the same curse of dimensionality. Function approximation replaces the table with a parameterized estimator - connecting RL to [supervised learning](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) and [neural networks](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md).
+[Chapter 17](../chapter-17-making-complex-decisions/README.md) value iteration over explicit states faces the same curse of dimensionality. Function approximation replaces the table with a parameterized estimator - connecting RL to [supervised learning](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) and [neural networks](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md).
 
 ---
 
@@ -115,7 +115,7 @@ Q-learning with linear features can oscillate or diverge. Mitigations:
 - CNN layers extract visual features for Atari
 - End-to-end $\hat{Q}(s,a)$ with $s$ as image stack
 
-[Course 3 Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) covers backprop; [Course 3 Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) covers convolutions for spatial input - both feed into [Section 22.5](./section-05-deep-reinforcement-learning.md).
+[Course 3 Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) covers backprop; [Course 3 Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) covers convolutions for spatial input - both feed into [Section 22.5](./section-05-deep-reinforcement-learning.md).
 
 ---
 
@@ -128,7 +128,7 @@ Q-learning with linear features can oscillate or diverge. Mitigations:
 | Small discrete MDP (verified) | Tabular Q-learning |
 | Safety-critical, need guarantees | Tabular or verified linear |
 
-[Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-03-decision-trees-for-regression.md) decision trees generalize by partitioning feature space - analogous intuition, but RL targets are non-stationary TD errors, not fixed labels.
+[Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-03-decision-trees-for-regression.md) decision trees generalize by partitioning feature space - analogous intuition, but RL targets are non-stationary TD errors, not fixed labels.
 
 ---
 
@@ -162,13 +162,13 @@ $$
 
 ## Overfitting in RL
 
-Unlike [supervised learning](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md), RL lacks a fixed dataset - the agent **creates** its own distribution. Overfitting manifests as:
+Unlike [supervised learning](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md), RL lacks a fixed dataset - the agent **creates** its own distribution. Overfitting manifests as:
 
 - **Memorizing** training environments without transfer
 - **Catastrophic forgetting** when distribution shifts
 - **Overfitting to replay buffer** - stale experiences dominate
 
-Mitigations: diverse exploration, regularization ([Course 3 Chapter 07](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md)), domain randomization, evaluation on held-out environment seeds.
+Mitigations: diverse exploration, regularization ([Course 3 Chapter 07](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md)), domain randomization, evaluation on held-out environment seeds.
 
 ---
 
@@ -233,7 +233,7 @@ Monitor during training:
 | Policy performance | Improving | Oscillating / collapsing |
 | Weight norms | Stable | Diverging |
 
-Early stopping on environment return - analogous to validation curves in [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-03-classification-accuracy-measures.md).
+Early stopping on environment return - analogous to validation curves in [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-03-classification-accuracy-measures.md).
 
 ---
 

@@ -81,7 +81,7 @@ Return θ
 | **E** | Soft assignments to latent values | "Who belongs to which cluster?" |
 | **M** | Parameters that best fit those assignments | "Where are cluster centers?" |
 
-This is **soft** k-means when $z$ is cluster ID - compare [Course 1 k-means](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) (hard assignment).
+This is **soft** k-means when $z$ is cluster ID - compare [Course 1 k-means](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) (hard assignment).
 
 ---
 
@@ -237,7 +237,7 @@ Permuting component labels leaves likelihood unchanged - $\pi_1, \mu_1$ swapped 
 
 ## EM as Lower-Bound Optimization
 
-EM maximizes a **lower bound** on $\ell(\theta)$ via Jensen's inequality - the Q-function is a tight bound at $\theta^{(t)}$. This connects to variational inference in [Course 3 Chapter 19](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md).
+EM maximizes a **lower bound** on $\ell(\theta)$ via Jensen's inequality - the Q-function is a tight bound at $\theta^{(t)}$. This connects to variational inference in [Course 3 Chapter 19](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md).
 
 ---
 
@@ -250,7 +250,7 @@ EM maximizes a **lower bound** on $\ell(\theta)$ via Jensen's inequality - the Q
 | Probabilistic | No density model | Full $P(\mathbf{x})$ |
 | Objective | Minimize inertia | Maximize log-likelihood |
 
-[Course 1 clustering](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) is faster; GMMs support **density estimation** and **principled model selection** via BIC.
+[Course 1 clustering](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) is faster; GMMs support **density estimation** and **principled model selection** via BIC.
 
 ---
 
@@ -287,7 +287,7 @@ Baum-Welch for HMMs **is** EM - [Section 20.5](./section-05-em-applications.md) 
 
 ## Connection to Course 3
 
-[Probabilistic PCA and factor analysis](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) derive EM for latent linear models - same E/M pattern with different sufficient statistics.
+[Probabilistic PCA and factor analysis](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) derive EM for latent linear models - same E/M pattern with different sufficient statistics.
 
 ---
 

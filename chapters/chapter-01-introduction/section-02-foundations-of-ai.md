@@ -11,7 +11,7 @@
 
 Imagine trying to build a self-driving car using only one discipline. You would need **algorithms** to plan routes, **statistics** to handle sensor noise, **psychology** to predict pedestrian behavior, **economics** to reason about trade-offs (speed vs. safety), and **philosophy** to decide what "safe" even means when accidents are unavoidable. [Artificial Intelligence](../../GLOSSARY.md#artificial-intelligence) sits at a crossroads - a **multi-disciplinary hub** where ideas from many fields converge on one question: how should an intelligent system perceive, reason, and act?
 
-Russell and Norvig identify six intellectual foundations. None of them alone is sufficient; together they explain why AI is hard, why progress comes in waves, and why your [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md) ML skills are only one piece of a larger puzzle.
+Russell and Norvig identify six intellectual foundations. None of them alone is sufficient; together they explain why AI is hard, why progress comes in waves, and why your [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md) ML skills are only one piece of a larger puzzle.
 
 ---
 
@@ -61,7 +61,7 @@ P(h \mid e) = \frac{P(e \mid h)\, P(h)}{P(e)}
 $$
 > **Readable form:** Posterior belief in hypothesis h equals likelihood of evidence given h, times prior on h, divided by total probability of evidence.
 
-You used probabilistic intuition in Course 1's [Naive Bayes classifiers](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md). Chapters 12-15 build the full machinery.
+You used probabilistic intuition in Course 1's [Naive Bayes classifiers](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md). Chapters 12-15 build the full machinery.
 
 ### Computation and Complexity
 

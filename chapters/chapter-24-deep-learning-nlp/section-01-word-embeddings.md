@@ -10,7 +10,7 @@
 ---
 ## The Limits of One-Hot Vectors
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) represents words as sparse high-dimensional vectors - mostly zeros, no notion of similarity. "Cat" and "dog" are as unrelated as "cat" and "democracy."
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) represents words as sparse high-dimensional vectors - mostly zeros, no notion of similarity. "Cat" and "dog" are as unrelated as "cat" and "democracy."
 
 **Word embeddings** map words to dense, low-dimensional vectors $\mathbf{v}_w \in \mathbb{R}^d$ where semantic similarity corresponds to geometric proximity.
 
@@ -80,7 +80,7 @@ $$
 
 Not magic - linear structure emerges from predicting contexts where these words substitute.
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) visualizes this with t-SNE on learned embedding layers.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) visualizes this with t-SNE on learned embedding layers.
 
 ---
 
@@ -135,7 +135,7 @@ $$
 $$
 > **Readable form:** A subword model represents an unfamiliar word by combining embeddings of its known pieces.
 
-Character-level models ([Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md)) extend this to every string - slower but zero OOV rate.
+Character-level models ([Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md)) extend this to every string - slower but zero OOV rate.
 
 ---
 
@@ -160,7 +160,7 @@ layer = Embedding(vocab_size, 300, weights=[embedding_matrix], trainable=False)
 | **Finetune** | Domain-specific vocabulary |
 | **Train from scratch** | Large domain corpus |
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) compares learned vs GloVe-initialized embeddings on sentiment.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) compares learned vs GloVe-initialized embeddings on sentiment.
 
 ---
 
@@ -210,7 +210,7 @@ Contextual transformers address polysemy and OOV - at compute cost. [Section 24.
 | Manual synonym lists (WordNet) | Emergent similarity |
 | Sparse TF-IDF | Dense semantic space |
 
-The Chapter 24 lab compares DistilBERT finetuning against [bag-of-words baselines](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) - embeddings are the bridge.
+The Chapter 24 lab compares DistilBERT finetuning against [bag-of-words baselines](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) - embeddings are the bridge.
 
 ---
 

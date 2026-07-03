@@ -10,7 +10,7 @@
 
 [LLMs](./section-07-llm-capabilities.md) influence hiring, healthcare, education, law, and public discourse. Russell and Norvig connect NLP ethics to the broader [risks and benefits](../chapter-01-introduction/section-05-risks-and-benefits-of-ai.md) framework - technical capability outpaces governance.
 
-This section covers **bias**, **hallucination**, **privacy**, **misuse**, and **mitigation** - essential for anyone deploying models trained in [Chapter 24](./README.md) or [Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md).
+This section covers **bias**, **hallucination**, **privacy**, **misuse**, and **mitigation** - essential for anyone deploying models trained in [Chapter 24](./README.md) or [Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md).
 
 > **Readable form:** A fluent model that confidently lies, stereotypes, or leaks private data is worse than no model at all in high-stakes settings.
 
@@ -53,7 +53,7 @@ Finetuning data (annotator bias)
 Deployment context (who uses it, for what)
 ```
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) sentiment models on product reviews may fail on dialects underrepresented in training - same mechanism at scale.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-05-sentiment-analysis.md) sentiment models on product reviews may fail on dialects underrepresented in training - same mechanism at scale.
 
 ---
 
@@ -121,7 +121,7 @@ Pretraining on web text risks **memorizing** personal information:
 - Output filters for SSN, credit card patterns
 - Enterprise deployments with data residency controls
 
-[Course 1 operationalization](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md) principles apply - never log user prompts with PII without consent.
+[Course 1 operationalization](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md) principles apply - never log user prompts with PII without consent.
 
 ---
 
@@ -175,7 +175,7 @@ Deployers must document:
 ## Responsible Deployment Checklist
 
 1. **Risk assessment** - What harm if wrong?
-2. **Baseline comparison** - Is LLM better than [simpler methods](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md)?
+2. **Baseline comparison** - Is LLM better than [simpler methods](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md)?
 3. **Disclosure** - Users know they interact with AI
 4. **Human-in-the-loop** - Review for medical, legal, financial outputs
 5. **Monitoring** - Track failure modes, bias metrics, hallucination rate
@@ -215,9 +215,9 @@ LLMs are **black boxes** - attention weights are not faithful explanations.
 
 ## Connection to Course 1 and 3
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-06-spam-filtering.md) - false positives block legitimate email; LLM false outputs scale similarly.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-06-spam-filtering.md) - false positives block legitimate email; LLM false outputs scale similarly.
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) - sequence models amplify training data patterns; ethics starts at data collection.
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) - sequence models amplify training data patterns; ethics starts at data collection.
 
 The Chapter 24 lab compares DistilBERT to bag-of-words - include **error analysis** on demographic slices, not just accuracy.
 

@@ -167,7 +167,7 @@ Formalized in Chapter 16 as **multi-attribute utility**. [Section 1.5](../chapte
 
 ### Connection to Course 1
 
-A taxi fare [regression model](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-02-linear-regression.md) predicts price from distance - one **episodic** slice. The driving agent chooses **actions** that *create* the trip distribution. Prediction supports planning; it does not replace the agent loop ([Section 2.1](./section-01-agents-and-environments.md)).
+A taxi fare [regression model](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-02-linear-regression.md) predicts price from distance - one **episodic** slice. The driving agent chooses **actions** that *create* the trip distribution. Prediction supports planning; it does not replace the agent loop ([Section 2.1](./section-01-agents-and-environments.md)).
 
 ---
 
@@ -220,7 +220,7 @@ def diagnosis_step(belief, percepts, possible_actions):
 
 ### Relation to Course 1 Classification
 
-A [classifier](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md) mapping symptoms → disease label is **one step** of the agent. Full diagnosis is **sequential active learning**:
+A [classifier](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md) mapping symptoms → disease label is **one step** of the agent. Full diagnosis is **sequential active learning**:
 
 | ML classifier | Diagnosis agent |
 |---------------|-----------------|
@@ -228,7 +228,7 @@ A [classifier](https://github.com/Collaborative-ai/ai-academy-applied-ml-enginee
 | One-shot prediction | Iterative belief revision |
 | Accuracy on test set | Utility of patient outcome |
 
-[Naive Bayes](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md) appears in Chapter 12 as a diagnostic engine - now you see it inside the **performance element** of a larger agent.
+[Naive Bayes](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-01-classification-fundamentals.md) appears in Chapter 12 as a diagnostic engine - now you see it inside the **performance element** of a larger agent.
 
 ### Knowledge Sources
 

@@ -11,7 +11,7 @@
 
 Chapter 21.7 surveys **where deep networks deliver state-of-the-art results** - connecting the architectures from Sections 21.1-21.6 to deployed systems. Russell and Norvig treat applications not as a catalog of buzzwords but as **evidence that learned representations scale** across perception, language, and decision-making when data and compute are available.
 
-This section maps AIMA's application overview to your hands-on experience in [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/README.md) and forward to specialized chapters: [Chapter 25 - Computer Vision](../chapter-25-computer-vision/README.md), [Chapter 23 - NLP](../chapter-23-natural-language-processing/README.md), [Chapter 22 - Reinforcement Learning](../chapter-22-reinforcement-learning/README.md).
+This section maps AIMA's application overview to your hands-on experience in [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/README.md) and forward to specialized chapters: [Chapter 25 - Computer Vision](../chapter-25-computer-vision/README.md), [Chapter 23 - NLP](../chapter-23-natural-language-processing/README.md), [Chapter 22 - Reinforcement Learning](../chapter-22-reinforcement-learning/README.md).
 
 > **Readable form:** the same recipe - big data, GPU training, layered representations - keeps winning across domains that look unrelated on the surface.
 
@@ -89,7 +89,7 @@ Deep NLP progressed: **word embeddings** (Word2Vec, GloVe) → **RNN/LSTM seq2se
 | Question answering | Attention over context |
 | Summarization | Seq2seq, then pretrained LLMs |
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) used bag-of-words; deep models learn **contextual representations**. [Chapter 23](../chapter-23-natural-language-processing/README.md) covers parsing and semantics; [Chapter 24](../chapter-24-deep-learning-nlp/README.md) focuses on neural NLP.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) used bag-of-words; deep models learn **contextual representations**. [Chapter 23](../chapter-23-natural-language-processing/README.md) covers parsing and semantics; [Chapter 24](../chapter-24-deep-learning-nlp/README.md) focuses on neural NLP.
 
 Russell and Norvig note **hallucination** and **lack of grounding** in pure language models - connecting to [Section 1.4](../chapter-01-introduction/section-04-state-of-the-art.md) on the understanding gap.
 
@@ -190,10 +190,10 @@ Technical capability without [Chapter 27 - Ethics](../chapter-27-philosophy-ethi
 
 | Course 1 | AIMA link |
 |----------|-----------|
-| MNIST digits | [08-digit-recognition-mnist.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-08-case-study-mnist-digit-recognition.md): classification precursor |
-| CNN chapter | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md): CIFAR-scale extension |
-| Text classification | [Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md): NLP before LSTM |
-| Why deep learning | [01-why-deep-learning.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): application motivation |
+| MNIST digits | [08-digit-recognition-mnist.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/section-08-case-study-mnist-digit-recognition.md): classification precursor |
+| CNN chapter | [Chapter 10](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-10-convolutional-neural-networks/README.md): CIFAR-scale extension |
+| Text classification | [Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md): NLP before LSTM |
+| Why deep learning | [01-why-deep-learning.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): application motivation |
 
 ---
 
@@ -201,10 +201,10 @@ Technical capability without [Chapter 27 - Ethics](../chapter-27-philosophy-ethi
 
 | AIMA topic | Goodfellow et al. |
 |------------|-------------------|
-| Large-scale applications | [Chapter 12](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md) |
-| Computer vision depth | [Chapter 09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) |
-| Sequence applications | [Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) |
-| Deployment at scale | [Chapter 12](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-01-large-scale-deep-learning.md) |
+| Large-scale applications | [Chapter 12](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md) |
+| Computer vision depth | [Chapter 09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-09-convolutional-networks/README.md) |
+| Sequence applications | [Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) |
+| Deployment at scale | [Chapter 12](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-01-large-scale-deep-learning.md) |
 
 ---
 

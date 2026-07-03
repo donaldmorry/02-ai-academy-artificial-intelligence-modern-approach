@@ -277,7 +277,7 @@ $$
 | Expected SARSA | On | $r + \gamma \mathbb{E}_\pi[Q(s',\cdot)]$ | $Q^\pi$ |
 | Double Q-learning | Off | Two tables decouple $\max$ select/evaluate | $Q^*$ (reduced bias) |
 
-**Expected SARSA** lowers variance vs. SARSA; **Double Q-learning** is the tabular precursor to Double DQN ([Section 22.5](./section-05-deep-reinforcement-learning.md)). See [Course 1 ML paradigms](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md) and [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) for scaling Q-learning to neural nets.
+**Expected SARSA** lowers variance vs. SARSA; **Double Q-learning** is the tabular precursor to Double DQN ([Section 22.5](./section-05-deep-reinforcement-learning.md)). See [Course 1 ML paradigms](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md) and [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) for scaling Q-learning to neural nets.
 
 ---
 

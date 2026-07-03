@@ -89,7 +89,7 @@ def disparate_impact(rate_majority, rate_minority, threshold=0.8):
 
 - [Chapter 01](../chapter-01-introduction/README.md)
 - [Chapter 16](../chapter-16-making-simple-decisions/README.md)
-- [Course 1 Chapter 07](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md)
+- [Course 1 Chapter 07](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md)
 
 ---
 

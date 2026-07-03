@@ -32,7 +32,7 @@
 **Word sense disambiguation (WSD)** picks the intended sense from context. Classical approaches:
 
 - **Dictionary methods** - Lesk algorithm overlaps definitions with context
-- **Supervised classifiers** - features from surrounding words ([Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md))
+- **Supervised classifiers** - features from surrounding words ([Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md))
 - **Embeddings** - nearest sense in vector space ([Chapter 24](../chapter-24-deep-learning-nlp/section-01-word-embeddings.md))
 
 $$
@@ -60,7 +60,7 @@ where $\llbracket \cdot \rrbracket$ denotes semantic interpretation.
 | NP "the cat" | Entity $e_1$ |
 | VP "chased the dog" | Relation / event involving $e_1$ |
 
-Without [parse trees](./section-03-grammar-formalisms.md), composition order is undefined - "dog bites man" vs "man bites dog" share bag-of-words features in [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md).
+Without [parse trees](./section-03-grammar-formalisms.md), composition order is undefined - "dog bites man" vs "man bites dog" share bag-of-words features in [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md).
 
 ---
 
@@ -161,7 +161,7 @@ Words appearing in similar contexts have similar meanings. This idea underpins:
 - [Word2Vec, GloVe](../chapter-24-deep-learning-nlp/section-01-word-embeddings.md)
 - Transformer contextual embeddings
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) demonstrates that "king" - "man" + "woman" ≈ "queen" in embedding space - a soft form of lexical semantics.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) demonstrates that "king" - "man" + "woman" ≈ "queen" in embedding space - a soft form of lexical semantics.
 
 ---
 
@@ -224,7 +224,7 @@ This section's extra practice: take one sentence with ambiguity, write two possi
 ## Reflection Questions
 
 1. Why does compositional semantics require a parse tree?
-2. How does word sense disambiguation relate to [text classification](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md)?
+2. How does word sense disambiguation relate to [text classification](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md)?
 3. What is the difference between truth-conditional semantics and distributional semantics?
 4. Give an example where syntactic parses match but semantic interpretations differ.
 

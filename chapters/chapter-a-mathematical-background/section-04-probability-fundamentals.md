@@ -51,7 +51,7 @@ Link concepts to search complexity, neural network linear algebra, probabilistic
 
 ## Study Tips
 
-Identify personal gaps; cross-reference [Course 3 Chapter 02](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/README.md) for deeper treatment.
+Identify personal gaps; cross-reference [Course 3 Chapter 02](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/README.md) for deeper treatment.
 
 ---
 

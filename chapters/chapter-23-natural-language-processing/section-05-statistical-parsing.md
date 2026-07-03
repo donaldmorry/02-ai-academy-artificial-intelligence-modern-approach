@@ -171,9 +171,9 @@ This mirrors [n-gram language models](./section-01-language-models.md) - PCFGs g
 | 2010s | RNN parsers | Distributed word vectors |
 | 2020s | Transformer parsers | Self-attention over tokens |
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) builds sequence models; [Chapter 24](../chapter-24-deep-learning-nlp/README.md) applies transformers to parsing via finetuning (BERT on constituency or dependency tasks).
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) builds sequence models; [Chapter 24](../chapter-24-deep-learning-nlp/README.md) applies transformers to parsing via finetuning (BERT on constituency or dependency tasks).
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) skips PCFGs - jumping to neural end-to-end models. Understanding PCFGs explains **what neural parsers learned to approximate**.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) skips PCFGs - jumping to neural end-to-end models. Understanding PCFGs explains **what neural parsers learned to approximate**.
 
 ---
 

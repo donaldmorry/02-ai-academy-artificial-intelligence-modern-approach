@@ -192,9 +192,9 @@ Real pipelines tolerate noise - social media breaks hand-crafted grammars. Stati
 
 Classical parsing is **search** over structures defined by [grammar rules](./section-03-grammar-formalisms.md) - connecting to AIMA's search chapters (Chapters 03-04).
 
-[Course 3 Chapter 10](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) covers sequence models that implicitly learn parse-like structure. [Chapter 24](../chapter-24-deep-learning-nlp/README.md) transformers attend over tokens without explicit CYK tables - but CYK remains the clearest introduction to **structured prediction**.
+[Course 3 Chapter 10](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) covers sequence models that implicitly learn parse-like structure. [Chapter 24](../chapter-24-deep-learning-nlp/README.md) transformers attend over tokens without explicit CYK tables - but CYK remains the clearest introduction to **structured prediction**.
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) never parses - classification operates on flat vectors. Adding a parse tree as features (production rules as dimensions) was a 1990s-2000s technique before embeddings.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) never parses - classification operates on flat vectors. Adding a parse tree as features (production rules as dimensions) was a 1990s-2000s technique before embeddings.
 
 ---
 

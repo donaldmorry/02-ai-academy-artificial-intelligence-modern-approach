@@ -9,7 +9,7 @@
 
 ## Learning from Interaction, Not Labels
 
-[Supervised learning](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) gives the agent a dataset of input-output pairs: "this email is spam," "this image is a cat." The agent never chooses what data to see next - the training set is fixed before learning begins.
+[Supervised learning](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) gives the agent a dataset of input-output pairs: "this email is spam," "this image is a cat." The agent never chooses what data to see next - the training set is fixed before learning begins.
 
 **Reinforcement learning (RL)** inverts part of that contract. The agent **acts** in an environment, receives **observations** and **scalar rewards**, and must discover a **policy** - a mapping from states to actions - that maximizes cumulative reward over time. There is no supervisor labeling the correct action at each step; only occasional feedback signals whether things are going well or poorly.
 
@@ -101,13 +101,13 @@ This is powerful but dangerous (see [Section 22.8](./section-08-applications-and
 
 | Paradigm | Training signal | Who generates data? | Example |
 |----------|-----------------|---------------------|---------|
-| Supervised | Labels $y$ for inputs $x$ | External dataset | Image classification ([Course 1 Chapter 03](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md)) |
-| Unsupervised | Structure in $x$ alone | External dataset | Clustering ([Course 1 Chapter 01](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md)) |
+| Supervised | Labels $y$ for inputs $x$ | External dataset | Image classification ([Course 1 Chapter 03](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-03-classification-models/README.md)) |
+| Unsupervised | Structure in $x$ alone | External dataset | Clustering ([Course 1 Chapter 01](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md)) |
 | Reinforcement | Scalar reward $R_t$ | **Agent's own actions** | Game playing, robotics |
 
 **Key distinction:** In RL, the agent's current policy **changes the distribution** of future training data. A bad policy visits bad states and learns slowly - the **exploration problem** ([Section 22.3](./section-03-active-reinforcement-learning.md)).
 
-Deep RL combines RL with neural networks from [Chapter 21](../chapter-21-deep-learning/README.md) and [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) - scaling to Atari pixels and continuous control.
+Deep RL combines RL with neural networks from [Chapter 21](../chapter-21-deep-learning/README.md) and [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) - scaling to Atari pixels and continuous control.
 
 ---
 
@@ -184,7 +184,7 @@ Chapter 17 computes these via value iteration when $P$ is known. RL estimates th
 | **Model-based** | $\hat{P}$, $\hat{R}$ then plans | Dyna, MCTS, world models | [Section 22.7](./section-07-model-based-reinforcement-learning.md) |
 | **Model-free** | $V$, $Q$, or $\pi$ directly | None (trial-and-error) | Q-learning, policy gradients |
 
-Model-based methods sample-efficient but suffer if the learned model is wrong. Model-free methods are robust but data-hungry - deep RL on GPUs addresses scale ([Course 3 Chapter 12](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-01-large-scale-deep-learning.md)).
+Model-based methods sample-efficient but suffer if the learned model is wrong. Model-free methods are robust but data-hungry - deep RL on GPUs addresses scale ([Course 3 Chapter 12](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-01-large-scale-deep-learning.md)).
 
 ---
 

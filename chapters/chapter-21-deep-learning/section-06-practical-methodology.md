@@ -34,7 +34,7 @@ Problem definition → Data collection → Baseline → Model → Tune → Error
 | Tune | One change at a time? |
 | Deploy | Latency, memory, monitoring? |
 
-[Course 1 ML workflow](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md) established split discipline; deep learning adds **epoch-level monitoring** and **checkpointing**.
+[Course 1 ML workflow](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md) established split discipline; deep learning adds **epoch-level monitoring** and **checkpointing**.
 
 ---
 
@@ -68,7 +68,7 @@ Before a custom CNN or LSTM, implement:
 |-----------|----------|
 | Tabular | Logistic regression / small MLP |
 | Images | Linear classifier on flattened pixels, or small conv net |
-| Text | Bag-of-words + logistic regression ([Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md)) |
+| Text | Bag-of-words + logistic regression ([Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md)) |
 | Sequences | Markov n-gram |
 
 If your deep model barely beats the baseline, the problem may need **more/better data** rather than more layers. AIMA stresses **incremental complexity** - justified by measured gains.
@@ -209,7 +209,7 @@ Table format AIMA recommends:
 
 ## From Notebook to Production Preview
 
-[Course 1 Chapter 07](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md) covers serialization and serving. Deep models add:
+[Course 1 Chapter 07](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md) covers serialization and serving. Deep models add:
 
 - **Latency budgets** - batch inference vs real-time
 - **Model compression** - quantization, pruning, distillation
@@ -222,10 +222,10 @@ Table format AIMA recommends:
 
 | Course 1 | AIMA link |
 |----------|-----------|
-| ML workflow | [06-ml-workflow.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md): splits and baselines |
-| Operationalizing models | [Chapter 07 README](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md): deployment path |
-| Hyperparameter tuning (SVM) | [03-hyperparameter-tuning.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-05-support-vector-machines/section-03-hyperparameter-tuning-c-gamma-and-gridsearchcv.md): same search discipline |
-| Model comparison | [07-model-comparison-selection.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-07-model-comparison-and-cross-validation.md): evaluation mindset |
+| ML workflow | [06-ml-workflow.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-06-the-ml-workflow-and-data-hygiene.md): splits and baselines |
+| Operationalizing models | [Chapter 07 README](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-07-operationalizing-models/README.md): deployment path |
+| Hyperparameter tuning (SVM) | [03-hyperparameter-tuning.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-05-support-vector-machines/section-03-hyperparameter-tuning-c-gamma-and-gridsearchcv.md): same search discipline |
+| Model comparison | [07-model-comparison-selection.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-02-regression-models/section-07-model-comparison-and-cross-validation.md): evaluation mindset |
 
 ---
 
@@ -233,10 +233,10 @@ Table format AIMA recommends:
 
 | AIMA topic | Goodfellow et al. |
 |------------|-------------------|
-| Practical methodology | [Chapter 11](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-11-practical-methodology/README.md) - full treatment |
-| Debugging optimization | [Chapter 08](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md) §8.2 |
-| Regularization choices | [Chapter 07](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md) |
-| Large-scale training | [Chapter 12](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md) |
+| Practical methodology | [Chapter 11](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-11-practical-methodology/README.md) - full treatment |
+| Debugging optimization | [Chapter 08](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-08-optimization/README.md) §8.2 |
+| Regularization choices | [Chapter 07](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md) |
+| Large-scale training | [Chapter 12](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/README.md) |
 
 ---
 

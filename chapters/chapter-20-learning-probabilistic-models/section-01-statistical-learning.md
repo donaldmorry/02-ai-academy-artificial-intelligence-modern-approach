@@ -66,7 +66,7 @@ This connects directly to [maximum likelihood estimation](../../GLOSSARY.md#maxi
 **Nonparametric:** capacity grows with data (preview in [Section 20.8](./section-08-nonparametric-bayes-preview.md)).
 
 - Dirichlet process mixtures: effectively unbounded $K$
-- k-NN "model" stores all training points ([Course 1 k-NN](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-05-supervised-learning-k-nearest-neighbors.md))
+- k-NN "model" stores all training points ([Course 1 k-NN](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-05-supervised-learning-k-nearest-neighbors.md))
 
 | Approach | Strength | Weakness |
 |----------|----------|----------|
@@ -111,7 +111,7 @@ Discriminative models can win on pure prediction accuracy; generative models sup
 | **Generative** | Clustering, density estimation, BN reasoning |
 | **Discriminative** | Classification with sharp decision boundaries |
 
-[Naive Bayes](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning) in Course 1 is a simple generative classifier - Chapter 20 generalizes the parameter-learning story.
+[Naive Bayes](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning) in Course 1 is a simple generative classifier - Chapter 20 generalizes the parameter-learning story.
 
 ---
 
@@ -180,8 +180,8 @@ $$
 
 | Course 1 topic | Chapter 20 view |
 |----------------|-----------------|
-| [k-means clustering](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) | Hard assignment; EM gives soft probabilistic version |
-| [Supervised vs. unsupervised](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) | Latent $z$ makes clustering a statistical estimation problem |
+| [k-means clustering](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md) | Hard assignment; EM gives soft probabilistic version |
+| [Supervised vs. unsupervised](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md) | Latent $z$ makes clustering a statistical estimation problem |
 | [Overfitting](../../GLOSSARY.md#overfitting) | High-capacity mixtures / many BN parameters |
 | [Cross-validation](../../GLOSSARY.md#cross-validation) | Choose $K$, hyperparameters, structure score |
 
@@ -191,11 +191,11 @@ $$
 
 | Course 3 topic | Chapter 20 link |
 |----------------|-----------------|
-| [ML basics](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/README.md) | Log-likelihood, regularization as priors |
-| [Linear factor models](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) | Latent variables + EM for PPCA/factor analysis |
-| [Regularization](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md) | MAP estimation = MLE + penalty |
+| [ML basics](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/README.md) | Log-likelihood, regularization as priors |
+| [Linear factor models](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) | Latent variables + EM for PPCA/factor analysis |
+| [Regularization](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md) | MAP estimation = MLE + penalty |
 
-Deep generative models ([Course 3 Chapter 20](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md)) replace hand-crafted densities with neural networks, but the **latent-variable** logic of Chapter 20 remains.
+Deep generative models ([Course 3 Chapter 20](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md)) replace hand-crafted densities with neural networks, but the **latent-variable** logic of Chapter 20 remains.
 
 ---
 

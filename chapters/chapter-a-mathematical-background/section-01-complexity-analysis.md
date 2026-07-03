@@ -3,7 +3,7 @@
 > **Source:** Russell & Norvig, *Artificial Intelligence: A Modern Approach* (4th ed.), Appendix A.1
 > **Previous:** [Chapter 28 - Future of AI](../chapter-28-future-of-ai/README.md)
 > **Next:** [Section A.2 - Linear Algebra Basics](./section-02-linear-algebra-basics.md)
-> **Prerequisites:** [High-school algebra; Course 1 Chapter 01](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/README.md)
+> **Prerequisites:** [High-school algebra; Course 1 Chapter 01](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/README.md)
 > **Vocabulary:** [../../GLOSSARY.md](../../GLOSSARY.md)
 > **Math conventions:** [../../MATH_CONVENTIONS.md](../../MATH_CONVENTIONS.md)
 
@@ -52,7 +52,7 @@ Link concepts to search complexity, neural network linear algebra, probabilistic
 
 ## Study Tips
 
-Identify personal gaps; cross-reference [Course 3 Chapter 02](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/README.md) for deeper treatment.
+Identify personal gaps; cross-reference [Course 3 Chapter 02](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/README.md) for deeper treatment.
 
 ---
 

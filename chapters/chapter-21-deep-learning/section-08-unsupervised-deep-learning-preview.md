@@ -56,7 +56,7 @@ $$
 
 ### Undercomplete Autoencoder
 
-Bottleneck dimension $d_{\text{code}} < d_{\text{input}}$ forces **compression** - learns a nonlinear generalization of PCA ([Course 1 Chapter 06](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-06-principal-component-analysis/README.md)).
+Bottleneck dimension $d_{\text{code}} < d_{\text{input}}$ forces **compression** - learns a nonlinear generalization of PCA ([Course 1 Chapter 06](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-06-principal-component-analysis/README.md)).
 
 ```python
 # Keras autoencoder sketch
@@ -90,7 +90,7 @@ DAEs learn **manifold structure** - data concentrate on lower-dimensional surfac
 
 **Contractive:** penalize $\|\partial f_\text{enc}/\partial \mathbf{x}\|_F^2$ - insensitivity to small input perturbations, smoother representations.
 
-[Course 3 Chapter 14 - Autoencoders](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md) develops these variants rigorously.
+[Course 3 Chapter 14 - Autoencoders](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md) develops these variants rigorously.
 
 ---
 
@@ -161,7 +161,7 @@ These pretrained models fine-tune on labeled tasks ([Chapter 24](../chapter-24-d
 
 ## Clustering with Deep Features
 
-Classical k-means ([Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md)) in pixel space works poorly on complex images. Pipeline:
+Classical k-means ([Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md)) in pixel space works poorly on complex images. Pipeline:
 
 1. Train autoencoder or use pretrained CNN
 2. Extract code or penultimate layer features
@@ -204,10 +204,10 @@ If labels are abundant and task is fixed, **supervised end-to-end** ([Sections 2
 
 | Course 1 | AIMA link |
 |----------|-----------|
-| k-means clustering | [04-k-means-clustering.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md): classical unsupervised baseline |
-| PCA | [Chapter 06](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-06-principal-component-analysis/README.md): linear compression vs autoencoder |
-| Supervised vs unsupervised | [03-supervised-vs-unsupervised.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md): paradigm framing |
-| Chapter 08 | [01-why-deep-learning.md](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): representation learning narrative |
+| k-means clustering | [04-k-means-clustering.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md): classical unsupervised baseline |
+| PCA | [Chapter 06](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-06-principal-component-analysis/README.md): linear compression vs autoencoder |
+| Supervised vs unsupervised | [03-supervised-vs-unsupervised.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-03-supervised-vs-unsupervised-learning.md): paradigm framing |
+| Chapter 08 | [01-why-deep-learning.md](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-08-deep-learning/section-01-why-deep-learning.md): representation learning narrative |
 
 ---
 
@@ -215,10 +215,10 @@ If labels are abundant and task is fixed, **supervised end-to-end** ([Sections 2
 
 | AIMA topic | Goodfellow et al. |
 |------------|-------------------|
-| Autoencoders | [Chapter 14](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md) - full chapter |
-| Representation learning | [Chapter 15](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-15-representation-learning/README.md) |
-| Linear factor models / PCA link | [Chapter 13](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) |
-| Deep generative models | [Chapter 20](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) |
+| Autoencoders | [Chapter 14](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md) - full chapter |
+| Representation learning | [Chapter 15](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-15-representation-learning/README.md) |
+| Linear factor models / PCA link | [Chapter 13](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) |
+| Deep generative models | [Chapter 20](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) |
 
 ---
 
@@ -227,8 +227,8 @@ If labels are abundant and task is fixed, **supervised end-to-end** ([Sections 2
 Chapter 21 progressed from **feedforward approximators** through **backprop**, **training craft**, **CNNs**, **RNNs/LSTM**, **methodology**, and **applications**, ending with **unsupervised preview**. You can now:
 
 - Read AIMA Ch. 21 as a coherent map of deep learning
-- Connect [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md) practice to formal derivations
-- Pursue [Course 3 Chapters 06-09](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) for mathematical depth
+- Connect [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-09-neural-networks/README.md) practice to formal derivations
+- Pursue [Course 3 Chapters 06-09](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md) for mathematical depth
 
 **Next chapter:** [Chapter 22 - Reinforcement Learning](../chapter-22-reinforcement-learning/README.md) - learning from rewards rather than labels.
 

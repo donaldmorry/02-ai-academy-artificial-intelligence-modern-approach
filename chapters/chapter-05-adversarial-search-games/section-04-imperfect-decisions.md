@@ -58,7 +58,7 @@ Weights tuned from **self-play** or **grandmaster games** ([Chapter 22](../chapt
 
 ## Features and Linear Evaluators
 
-Like [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/README.md) linear models:
+Like [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/README.md) linear models:
 
 $$
 \text{EVAL}(s) = \sum_i w_i f_i(s)

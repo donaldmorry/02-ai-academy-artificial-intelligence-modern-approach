@@ -14,7 +14,7 @@
 
 > **In plain English:** Safety is not only "does the model work?" It is "does the whole agent keep pursuing the right goal under pressure, uncertainty, and misuse?"
 
-This section connects the ethics chapter to technical mechanisms from earlier chapters: utility functions, MDPs, reinforcement learning, planning, uncertainty, and agent design. It also bridges forward to Course 4's [Modern LLM Engineering](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md), where alignment, RAG, tool use, and evaluation harnesses become production concerns.
+This section connects the ethics chapter to technical mechanisms from earlier chapters: utility functions, MDPs, reinforcement learning, planning, uncertainty, and agent design. It also bridges forward to Course 4's [Modern LLM Engineering](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md), where alignment, RAG, tool use, and evaluation harnesses become production concerns.
 
 ---
 
@@ -245,7 +245,7 @@ Then add one adversarial test case that should fail safely.
 2. Amodei et al. (2016). Concrete Problems in AI Safety. *arXiv*.
 3. Krakovna et al. (2020). Specification gaming examples in AI.
 4. Jobin, A., Ienca, M., & Vayena, E. (2019). Global landscape of AI ethics guidelines. *Nature Machine Intelligence*.
-5. [Course 4 Section 14.9 - Modern LLM Engineering](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md)
+5. [Course 4 Section 14.9 - Modern LLM Engineering](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md)
 
 ---
 

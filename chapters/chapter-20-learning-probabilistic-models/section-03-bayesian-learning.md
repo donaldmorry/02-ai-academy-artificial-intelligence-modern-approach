@@ -60,7 +60,7 @@ $$
 | **MAP** | Posterior mode | Point only |
 | **Full Bayesian** | Full $P(\theta \mid \mathcal{D})$ | Captured in distribution |
 
-MAP is the bridge to [regularization](../../GLOSSARY.md#regularization) in [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md): log-prior acts as penalty.
+MAP is the bridge to [regularization](../../GLOSSARY.md#regularization) in [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md): log-prior acts as penalty.
 
 ---
 
@@ -212,7 +212,7 @@ Observed BN data + Dirichlet prior → updated CPT distributions → propagate i
 | Course 1 idea | Bayesian view |
 |---------------|---------------|
 | Laplace smoothing in Naive Bayes | MAP with Dirichlet/Beta prior |
-| [Train/validation split](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning) | Approximate model comparison |
+| [Train/validation split](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning) | Approximate model comparison |
 | [Overfitting](../../GLOSSARY.md#overfitting) | Prior limits extreme parameters |
 
 ---
@@ -221,9 +221,9 @@ Observed BN data + Dirichlet prior → updated CPT distributions → propagate i
 
 | Course 3 topic | Bayesian link |
 |----------------|---------------|
-| [Dropout](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md) | Approximate Bayesian ensemble (informal) |
-| [Variational inference](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md) | Approximate $P(\theta \mid \mathcal{D})$ when exact is hard |
-| [Deep generative models](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Amortized posterior $q(\mathbf{z} \mid \mathbf{x})$ |
+| [Dropout](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-07-regularization/README.md) | Approximate Bayesian ensemble (informal) |
+| [Variational inference](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md) | Approximate $P(\theta \mid \mathcal{D})$ when exact is hard |
+| [Deep generative models](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Amortized posterior $q(\mathbf{z} \mid \mathbf{x})$ |
 
 Chapter 20's conjugate updates are the **exact** special case that variational methods generalize.
 

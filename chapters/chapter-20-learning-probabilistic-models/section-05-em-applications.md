@@ -144,7 +144,7 @@ Production systems use **log-space** forward-backward for numerical stability ([
 | Elliptical clusters | $\boldsymbol{\Sigma}_k$ captures correlation |
 | Generative density | Score new points, detect anomalies |
 
-vs. [k-means](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md):
+vs. [k-means](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-04-unsupervised-learning-k-means-clustering.md):
 
 | k-means | GMM + EM |
 |---------|----------|
@@ -217,13 +217,13 @@ General **structured EM** alternates inference and parameter updates - backbone 
 | **GMM** | Component labels | Responsibilities | Weighted means/covariances |
 | **HMM** | State sequence | Forward-backward | Update $A, B, \pi$ |
 | **Missing data** | Missing features | Conditional expectations | Standard parametric MLE |
-| **PPCA** | Latent factors | Posterior $p(z \mid x)$ | Factor loadings ([Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md)) |
+| **PPCA** | Latent factors | Posterior $p(z \mid x)$ | Factor loadings ([Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md)) |
 
 ---
 
 ## Speech Recognition Connection
 
-Classic pipeline: discrete HMM per phoneme, Baum-Welch on transcribed speech. Modern end-to-end neural ASR ([Course 3 sequence modeling](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md)) replaces explicit HMMs but **latent alignment** ideas persist (CTC, attention).
+Classic pipeline: discrete HMM per phoneme, Baum-Welch on transcribed speech. Modern end-to-end neural ASR ([Course 3 sequence modeling](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md)) replaces explicit HMMs but **latent alignment** ideas persist (CTC, attention).
 
 ---
 
@@ -266,9 +266,9 @@ Soft assignments enable **entropy** per point - high entropy = ambiguous cluster
 
 | Course 3 | EM connection |
 |----------|---------------|
-| [Sequence modeling](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) | Neural HMM / RNN training parallels |
-| [Linear factor models](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) | EM for PPCA |
-| [VAE](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Amortized E-step via encoder |
+| [Sequence modeling](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-10-sequence-modeling/README.md) | Neural HMM / RNN training parallels |
+| [Linear factor models](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md) | EM for PPCA |
+| [VAE](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md) | Amortized E-step via encoder |
 
 ---
 

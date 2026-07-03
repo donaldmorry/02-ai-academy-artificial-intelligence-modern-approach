@@ -197,7 +197,7 @@ Competitive ratio $\approx 45/25 = 1.8$ for this instance.
 |-----------------|---------------------|
 | Nondeterminism | [Chapter 17 - MDPs](../chapter-17-making-complex-decisions/README.md) |
 | Partial observability | POMDPs, HMMs ([Chapter 14](../chapter-14-probabilistic-reasoning-time/README.md)) |
-| Local search | [Chapter 06 - CSPs](../chapter-06-constraint-satisfaction/README.md), training ([Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md)) |
+| Local search | [Chapter 06 - CSPs](../chapter-06-constraint-satisfaction/README.md), training ([Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md)) |
 | Online exploration | [Chapter 19 - RL](../chapter-19-learning-from-examples/README.md) |
 | Adversarial dynamics | [Chapter 05 - Games](../chapter-05-adversarial-search-games/README.md) |
 | Planning | [Chapter 12](../chapter-11-automated-planning/README.md) STRIPS, HTN |

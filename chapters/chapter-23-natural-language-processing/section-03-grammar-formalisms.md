@@ -60,7 +60,7 @@ A **parse tree** shows how rules expand $S$ to terminals:
 
 Each internal node is a nonterminal; leaves are terminals (words). The tree encodes **syntactic structure** - subject NP, predicate VP.
 
-[Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) discards this structure in bag-of-words models. Grammars recover it.
+[Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md) discards this structure in bag-of-words models. Grammars recover it.
 
 > **Readable form:** A parse tree is a family tree for words - showing which words group together as phrases.
 
@@ -179,7 +179,7 @@ Hand-writing grammars for full natural language is labor-intensive. Approaches:
 | **Treebank-induced** | Learn rules from annotated corpora |
 | **Neural** | Implicit grammar in latent representations |
 
-The Penn Treebank (~1M words of parsed Wall Street Journal text) enabled **statistical parsing** ([Section 23.5](./section-05-statistical-parsing.md)). [Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) skips explicit grammars - neural models learn structure from data.
+The Penn Treebank (~1M words of parsed Wall Street Journal text) enabled **statistical parsing** ([Section 23.5](./section-05-statistical-parsing.md)). [Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) skips explicit grammars - neural models learn structure from data.
 
 ---
 
@@ -254,7 +254,7 @@ Without a parse tree, composition order is ambiguous - another reason grammars m
 1. Give an example of structural ambiguity not resolved by an n-gram model alone.
 2. Why must grammars be converted to CNF before CYK parsing?
 3. How does dependency grammar represent the subject of a sentence differently from CFG?
-4. What information does a parse tree provide that [bag-of-words](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) discards?
+4. What information does a parse tree provide that [bag-of-words](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) discards?
 
 ---
 

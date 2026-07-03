@@ -11,7 +11,7 @@
 
 Before grammars, parsers, or neural networks can operate on text, raw strings must become **structured tokens**. Text processing - also called **normalization** - converts heterogeneous input (HTML, tweets, clinical notes) into a consistent symbolic representation.
 
-[Course 1 Chapter 04, Section 4.2](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-02-text-preprocessing.md) introduced practical preprocessing for classification: lowercasing, stop-word removal, stemming. This section formalizes those steps in the AIMA tradition and connects them to [n-gram language models](./section-01-language-models.md) and downstream parsing.
+[Course 1 Chapter 04, Section 4.2](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-02-text-preprocessing.md) introduced practical preprocessing for classification: lowercasing, stop-word removal, stemming. This section formalizes those steps in the AIMA tradition and connects them to [n-gram language models](./section-01-language-models.md) and downstream parsing.
 
 > **Readable form:** Text processing is dishwashing before cooking - skip it and every later step tastes wrong.
 
@@ -73,7 +73,7 @@ Common normalization steps:
 | Number replacement | `1999` → `<NUM>` | Reduces vocabulary size |
 | URL replacement | `http://...` → `<URL>` | Privacy + generalization |
 
-For [text classification](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md), aggressive normalization often **helps** - sentiment rarely depends on capitalization. For named-entity recognition, it **hurts**.
+For [text classification](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/README.md), aggressive normalization often **helps** - sentiment rarely depends on capitalization. For named-entity recognition, it **hurts**.
 
 ---
 
@@ -117,7 +117,7 @@ $$
 - Speeds up bag-of-words models
 - **Destroys** grammatical structure needed for parsing
 
-AIMA's classical NLP pipeline typically **keeps** stop words for parsing and n-grams; [Course 1 TF-IDF pipelines](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) often remove them.
+AIMA's classical NLP pipeline typically **keeps** stop words for parsing and n-grams; [Course 1 TF-IDF pipelines](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-03-bag-of-words-and-tf-idf.md) often remove them.
 
 > **Readable form:** Stop-word removal is a classification trick, not a universal law of language.
 
@@ -158,7 +158,7 @@ Benefits:
 - Smaller |V| than word-level models
 - Cross-lingual transfer (shared subwords)
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) uses Keras `TextVectorization`; Hugging Face tokenizers implement BPE/WordPiece for transformers.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) uses Keras `TextVectorization`; Hugging Face tokenizers implement BPE/WordPiece for transformers.
 
 $$
 \text{tokenize}(\text{unhappiness}) \rightarrow [\text{un}, \text{##happi}, \text{##ness}]
@@ -228,7 +228,7 @@ Raw text
   → Downstream: LM, parser, classifier
 ```
 
-[Course 1 Chapter 13](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) implements this in Keras; [Section 23.8](./section-08-nlp-pipeline-integration.md) wires classical components together.
+[Course 1 Chapter 13](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-13-natural-language-processing/README.md) implements this in Keras; [Section 23.8](./section-08-nlp-pipeline-integration.md) wires classical components together.
 
 ---
 
@@ -259,7 +259,7 @@ Document your preprocessing spec - future you (and Chapter 24 finetuning) will t
 1. Why should a parsing pipeline keep stop words that a spam filter removes?
 2. When does lemmatization outperform stemming for n-gram language models?
 3. How does BPE handle a word never seen during tokenizer training?
-4. What preprocessing from [Course 1 Chapter 04](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-02-text-preprocessing.md) would you reuse unchanged for a CYK parser?
+4. What preprocessing from [Course 1 Chapter 04](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-04-text-classification/section-02-text-preprocessing.md) would you reuse unchanged for a CYK parser?
 
 ---
 

@@ -1,8 +1,8 @@
 # Section 1.1: What Is AI?
 
-> **Source:** Russell & Norvig, *Artificial Intelligence: A Modern Approach* (4th ed.), Chapter 1  
-> **Prerequisites:** [Course 1 - What Is Machine Learning?](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md)  
-> **Vocabulary:** [GLOSSARY.md](../../GLOSSARY.md)    
+> **Source:** Russell & Norvig, *Artificial Intelligence: A Modern Approach* (4th ed.), Chapter 1
+> **Prerequisites:** [Course 1 - What Is Machine Learning?](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md)
+> **Vocabulary:** [GLOSSARY.md](../../GLOSSARY.md)
 > **Math conventions:** [MATH_CONVENTIONS.md](../../MATH_CONVENTIONS.md)
 
 ---
@@ -13,7 +13,7 @@
 
 Russell and Norvig open their textbook with a deceptively modest claim: [Artificial Intelligence](../../GLOSSARY.md#artificial-intelligence) is **the study and construction of agents that receive percepts from the environment and perform actions**. That definition is deliberately broad. It covers chess programs, spam filters, warehouse robots, and hypothetical future systems we have not yet built. It also sidesteps the philosophical quicksand of "Can machines think?" - a question we will return to, but not let block practical progress.
 
-If you completed [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md), you already know one powerful slice of AI: [machine learning](../../GLOSSARY.md#machine-learning), where systems improve from data. AIMA widens the lens. **Search, logic, probability, planning, and learning** are all tools in the same toolbox - unified by the idea of a [rational agent](../../GLOSSARY.md#rational-agent) acting in an environment.
+If you completed [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md), you already know one powerful slice of AI: [machine learning](../../GLOSSARY.md#machine-learning), where systems improve from data. AIMA widens the lens. **Search, logic, probability, planning, and learning** are all tools in the same toolbox - unified by the idea of a [rational agent](../../GLOSSARY.md#rational-agent) acting in an environment.
 
 ---
 
@@ -105,7 +105,7 @@ Humorous analogy: weak AI is a **flight simulator** that never leaves the ground
 
 ## AI vs. Machine Learning: The Relationship
 
-From [Course 1, Section 1.2](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md):
+From [Course 1, Section 1.2](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-02-machine-learning-vs-ai-vs-deep-learning.md):
 
 ```
 AI  ⊃  Machine Learning  ⊃  Deep Learning
@@ -132,7 +132,7 @@ If you can solve it with a ten-line `if/else` script, it is probably not AI - it
 
 ## Mitchell's Learning Definition - The Bridge to Course 1
 
-Russell and Norvig connect AI to Tom Mitchell's classic learning definition (see [Course 1](https://github.com/Collaborative-ai/ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md)):
+Russell and Norvig connect AI to Tom Mitchell's classic learning definition (see [Course 1](https://github.com/donaldmorry/01-ai-academy-applied-ml-engineering/blob/main/chapters/chapter-01-machine-learning/section-01-what-is-machine-learning.md)):
 
 > A computer program **learns** from experience $E$ with respect to task $T$ and performance measure $P$, if its performance at $T$, as measured by $P$, improves with experience $E$.
 
